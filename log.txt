@@ -1,0 +1,2574 @@
+2020-03-23 13:00:03,606 - root - INFO - =====================上线SQL脚本文件生成工具=====================
+2020-03-23 13:00:03,608 - root - INFO - 
+                                                                                                                           
+                                                                                                                       
+KKKKKKKKK    KKKKKKK                                                                                                   
+K:::::::K    K:::::K                                                                                                   
+K:::::::K    K:::::K                                                                                                   
+K:::::::K   K::::::K                                                                                                   
+KK::::::K  K:::::KKK   ooooooooooo   nnnn  nnnnnnnn       ggggggggg   gggggzzzzzzzzzzzzzzzzz                           
+  K:::::K K:::::K    oo:::::::::::oo n:::nn::::::::nn    g:::::::::ggg::::gz:::::::::::::::z                           
+  K::::::K:::::K    o:::::::::::::::on::::::::::::::nn  g:::::::::::::::::gz::::::::::::::z                            
+  K:::::::::::K     o:::::ooooo:::::onn:::::::::::::::ng::::::ggggg::::::ggzzzzzzzz::::::z                             
+  K:::::::::::K     o::::o     o::::o  n:::::nnnn:::::ng:::::g     g:::::g       z::::::z                              
+  K::::::K:::::K    o::::o     o::::o  n::::n    n::::ng:::::g     g:::::g      z::::::z                               
+  K:::::K K:::::K   o::::o     o::::o  n::::n    n::::ng:::::g     g:::::g     z::::::z                                
+KK::::::K  K:::::KKKo::::o     o::::o  n::::n    n::::ng::::::g    g:::::g    z::::::z                                 
+K:::::::K   K::::::Ko:::::ooooo:::::o  n::::n    n::::ng:::::::ggggg:::::g   z::::::zzzzzzzz                           
+K:::::::K    K:::::Ko:::::::::::::::o  n::::n    n::::n g::::::::::::::::g  z::::::::::::::z                           
+K:::::::K    K:::::K oo:::::::::::oo   n::::n    n::::n  gg::::::::::::::g z:::::::::::::::z                           
+KKKKKKKKK    KKKKKKK   ooooooooooo     nnnnnn    nnnnnn    gggggggg::::::g zzzzzzzzzzzzzzzzz                           
+                                                                   g:::::g                                             
+                                                       gggggg      g:::::g                                             
+                                                       g:::::gg   gg:::::g                                             
+                                                        g::::::ggg:::::::g                                             
+                                                         gg:::::::::::::g                                              
+                                                           ggg::::::ggg                                                
+                                                              gggggg                                                   
+                                                                                                                       
+                                                                                                                       
+                                             iiii  lllllll RRRRRRRRRRRRRRRRR                             tttt          
+                                            i::::i l:::::l R::::::::::::::::R                         ttt:::t          
+                                             iiii  l:::::l R::::::RRRRRR:::::R                        t:::::t          
+                                                   l:::::l RR:::::R     R:::::R                       t:::::t          
+    eeeeeeeeeeee  vvvvvvv           vvvvvvviiiiiii  l::::l   R::::R     R:::::R  aaaaaaaaaaaaa  ttttttt:::::ttttttt    
+  ee::::::::::::ee v:::::v         v:::::v i:::::i  l::::l   R::::R     R:::::R  a::::::::::::a t:::::::::::::::::t    
+ e::::::eeeee:::::eev:::::v       v:::::v   i::::i  l::::l   R::::RRRRRR:::::R   aaaaaaaaa:::::at:::::::::::::::::t    
+e::::::e     e:::::e v:::::v     v:::::v    i::::i  l::::l   R:::::::::::::RR             a::::atttttt:::::::tttttt    
+e:::::::eeeee::::::e  v:::::v   v:::::v     i::::i  l::::l   R::::RRRRRR:::::R     aaaaaaa:::::a      t:::::t          
+e:::::::::::::::::e    v:::::v v:::::v      i::::i  l::::l   R::::R     R:::::R  aa::::::::::::a      t:::::t          
+e::::::eeeeeeeeeee      v:::::v:::::v       i::::i  l::::l   R::::R     R:::::R a::::aaaa::::::a      t:::::t          
+e:::::::e                v:::::::::v        i::::i  l::::l   R::::R     R:::::Ra::::a    a:::::a      t:::::t    tttttt
+e::::::::e                v:::::::v        i::::::il::::::lRR:::::R     R:::::Ra::::a    a:::::a      t::::::tttt:::::t
+ e::::::::eeeeeeee         v:::::v         i::::::il::::::lR::::::R     R:::::Ra:::::aaaa::::::a      tt::::::::::::::t
+  ee:::::::::::::e          v:::v          i::::::il::::::lR::::::R     R:::::R a::::::::::aa:::a       tt:::::::::::tt
+    eeeeeeeeeeeeee           vvv           iiiiiiiillllllllRRRRRRRR     RRRRRRR  aaaaaaaaaa  aaaa         ttttttttttt  
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+2020-03-23 13:02:23,802 - root - INFO - =====================上线SQL脚本文件生成工具=====================
+2020-03-23 13:02:23,803 - root - INFO - 
+                                                                                                                           
+                                                                                                                       
+KKKKKKKKK    KKKKKKK                                                                                                   
+K:::::::K    K:::::K                                                                                                   
+K:::::::K    K:::::K                                                                                                   
+K:::::::K   K::::::K                                                                                                   
+KK::::::K  K:::::KKK   ooooooooooo   nnnn  nnnnnnnn       ggggggggg   gggggzzzzzzzzzzzzzzzzz                           
+  K:::::K K:::::K    oo:::::::::::oo n:::nn::::::::nn    g:::::::::ggg::::gz:::::::::::::::z                           
+  K::::::K:::::K    o:::::::::::::::on::::::::::::::nn  g:::::::::::::::::gz::::::::::::::z                            
+  K:::::::::::K     o:::::ooooo:::::onn:::::::::::::::ng::::::ggggg::::::ggzzzzzzzz::::::z                             
+  K:::::::::::K     o::::o     o::::o  n:::::nnnn:::::ng:::::g     g:::::g       z::::::z                              
+  K::::::K:::::K    o::::o     o::::o  n::::n    n::::ng:::::g     g:::::g      z::::::z                               
+  K:::::K K:::::K   o::::o     o::::o  n::::n    n::::ng:::::g     g:::::g     z::::::z                                
+KK::::::K  K:::::KKKo::::o     o::::o  n::::n    n::::ng::::::g    g:::::g    z::::::z                                 
+K:::::::K   K::::::Ko:::::ooooo:::::o  n::::n    n::::ng:::::::ggggg:::::g   z::::::zzzzzzzz                           
+K:::::::K    K:::::Ko:::::::::::::::o  n::::n    n::::n g::::::::::::::::g  z::::::::::::::z                           
+K:::::::K    K:::::K oo:::::::::::oo   n::::n    n::::n  gg::::::::::::::g z:::::::::::::::z                           
+KKKKKKKKK    KKKKKKK   ooooooooooo     nnnnnn    nnnnnn    gggggggg::::::g zzzzzzzzzzzzzzzzz                           
+                                                                   g:::::g                                             
+                                                       gggggg      g:::::g                                             
+                                                       g:::::gg   gg:::::g                                             
+                                                        g::::::ggg:::::::g                                             
+                                                         gg:::::::::::::g                                              
+                                                           ggg::::::ggg                                                
+                                                              gggggg                                                   
+                                                                                                                       
+                                                                                                                       
+                                             iiii  lllllll RRRRRRRRRRRRRRRRR                             tttt          
+                                            i::::i l:::::l R::::::::::::::::R                         ttt:::t          
+                                             iiii  l:::::l R::::::RRRRRR:::::R                        t:::::t          
+                                                   l:::::l RR:::::R     R:::::R                       t:::::t          
+    eeeeeeeeeeee  vvvvvvv           vvvvvvviiiiiii  l::::l   R::::R     R:::::R  aaaaaaaaaaaaa  ttttttt:::::ttttttt    
+  ee::::::::::::ee v:::::v         v:::::v i:::::i  l::::l   R::::R     R:::::R  a::::::::::::a t:::::::::::::::::t    
+ e::::::eeeee:::::eev:::::v       v:::::v   i::::i  l::::l   R::::RRRRRR:::::R   aaaaaaaaa:::::at:::::::::::::::::t    
+e::::::e     e:::::e v:::::v     v:::::v    i::::i  l::::l   R:::::::::::::RR             a::::atttttt:::::::tttttt    
+e:::::::eeeee::::::e  v:::::v   v:::::v     i::::i  l::::l   R::::RRRRRR:::::R     aaaaaaa:::::a      t:::::t          
+e:::::::::::::::::e    v:::::v v:::::v      i::::i  l::::l   R::::R     R:::::R  aa::::::::::::a      t:::::t          
+e::::::eeeeeeeeeee      v:::::v:::::v       i::::i  l::::l   R::::R     R:::::R a::::aaaa::::::a      t:::::t          
+e:::::::e                v:::::::::v        i::::i  l::::l   R::::R     R:::::Ra::::a    a:::::a      t:::::t    tttttt
+e::::::::e                v:::::::v        i::::::il::::::lRR:::::R     R:::::Ra::::a    a:::::a      t::::::tttt:::::t
+ e::::::::eeeeeeee         v:::::v         i::::::il::::::lR::::::R     R:::::Ra:::::aaaa::::::a      tt::::::::::::::t
+  ee:::::::::::::e          v:::v          i::::::il::::::lR::::::R     R:::::R a::::::::::aa:::a       tt:::::::::::tt
+    eeeeeeeeeeeeee           vvv           iiiiiiiillllllllRRRRRRRR     RRRRRRR  aaaaaaaaaa  aaaa         ttttttttttt  
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+2020-03-23 13:02:52,753 - root - INFO - 
+                                                                                                                           
+                                                                                                                       
+KKKKKKKKK    KKKKKKK                                                                                                   
+K:::::::K    K:::::K                                                                                                   
+K:::::::K    K:::::K                                                                                                   
+K:::::::K   K::::::K                                                                                                   
+KK::::::K  K:::::KKK   ooooooooooo   nnnn  nnnnnnnn       ggggggggg   gggggzzzzzzzzzzzzzzzzz                           
+  K:::::K K:::::K    oo:::::::::::oo n:::nn::::::::nn    g:::::::::ggg::::gz:::::::::::::::z                           
+  K::::::K:::::K    o:::::::::::::::on::::::::::::::nn  g:::::::::::::::::gz::::::::::::::z                            
+  K:::::::::::K     o:::::ooooo:::::onn:::::::::::::::ng::::::ggggg::::::ggzzzzzzzz::::::z                             
+  K:::::::::::K     o::::o     o::::o  n:::::nnnn:::::ng:::::g     g:::::g       z::::::z                              
+  K::::::K:::::K    o::::o     o::::o  n::::n    n::::ng:::::g     g:::::g      z::::::z                               
+  K:::::K K:::::K   o::::o     o::::o  n::::n    n::::ng:::::g     g:::::g     z::::::z                                
+KK::::::K  K:::::KKKo::::o     o::::o  n::::n    n::::ng::::::g    g:::::g    z::::::z                                 
+K:::::::K   K::::::Ko:::::ooooo:::::o  n::::n    n::::ng:::::::ggggg:::::g   z::::::zzzzzzzz                           
+K:::::::K    K:::::Ko:::::::::::::::o  n::::n    n::::n g::::::::::::::::g  z::::::::::::::z                           
+K:::::::K    K:::::K oo:::::::::::oo   n::::n    n::::n  gg::::::::::::::g z:::::::::::::::z                           
+KKKKKKKKK    KKKKKKK   ooooooooooo     nnnnnn    nnnnnn    gggggggg::::::g zzzzzzzzzzzzzzzzz                           
+                                                                   g:::::g                                             
+                                                       gggggg      g:::::g                                             
+                                                       g:::::gg   gg:::::g                                             
+                                                        g::::::ggg:::::::g                                             
+                                                         gg:::::::::::::g                                              
+                                                           ggg::::::ggg                                                
+                                                              gggggg                                                   
+                                                                                                                       
+                                                                                                                       
+                                             iiii  lllllll RRRRRRRRRRRRRRRRR                             tttt          
+                                            i::::i l:::::l R::::::::::::::::R                         ttt:::t          
+                                             iiii  l:::::l R::::::RRRRRR:::::R                        t:::::t          
+                                                   l:::::l RR:::::R     R:::::R                       t:::::t          
+    eeeeeeeeeeee  vvvvvvv           vvvvvvviiiiiii  l::::l   R::::R     R:::::R  aaaaaaaaaaaaa  ttttttt:::::ttttttt    
+  ee::::::::::::ee v:::::v         v:::::v i:::::i  l::::l   R::::R     R:::::R  a::::::::::::a t:::::::::::::::::t    
+ e::::::eeeee:::::eev:::::v       v:::::v   i::::i  l::::l   R::::RRRRRR:::::R   aaaaaaaaa:::::at:::::::::::::::::t    
+e::::::e     e:::::e v:::::v     v:::::v    i::::i  l::::l   R:::::::::::::RR             a::::atttttt:::::::tttttt    
+e:::::::eeeee::::::e  v:::::v   v:::::v     i::::i  l::::l   R::::RRRRRR:::::R     aaaaaaa:::::a      t:::::t          
+e:::::::::::::::::e    v:::::v v:::::v      i::::i  l::::l   R::::R     R:::::R  aa::::::::::::a      t:::::t          
+e::::::eeeeeeeeeee      v:::::v:::::v       i::::i  l::::l   R::::R     R:::::R a::::aaaa::::::a      t:::::t          
+e:::::::e                v:::::::::v        i::::i  l::::l   R::::R     R:::::Ra::::a    a:::::a      t:::::t    tttttt
+e::::::::e                v:::::::v        i::::::il::::::lRR:::::R     R:::::Ra::::a    a:::::a      t::::::tttt:::::t
+ e::::::::eeeeeeee         v:::::v         i::::::il::::::lR::::::R     R:::::Ra:::::aaaa::::::a      tt::::::::::::::t
+  ee:::::::::::::e          v:::v          i::::::il::::::lR::::::R     R:::::R a::::::::::aa:::a       tt:::::::::::tt
+    eeeeeeeeeeeeee           vvv           iiiiiiiillllllllRRRRRRRR     RRRRRRR  aaaaaaaaaa  aaaa         ttttttttttt  
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+2020-03-23 13:02:52,802 - root - INFO - =====================上线SQL脚本文件生成工具=====================
+2020-03-23 13:04:43,376 - root - INFO - 
+                                                                                                                           
+                                                                                                                       
+KKKKKKKKK    KKKKKKK                                                                                                   
+K:::::::K    K:::::K                                                                                                   
+K:::::::K    K:::::K                                                                                                   
+K:::::::K   K::::::K                                                                                                   
+KK::::::K  K:::::KKK   ooooooooooo   nnnn  nnnnnnnn       ggggggggg   gggggzzzzzzzzzzzzzzzzz                           
+  K:::::K K:::::K    oo:::::::::::oo n:::nn::::::::nn    g:::::::::ggg::::gz:::::::::::::::z                           
+  K::::::K:::::K    o:::::::::::::::on::::::::::::::nn  g:::::::::::::::::gz::::::::::::::z                            
+  K:::::::::::K     o:::::ooooo:::::onn:::::::::::::::ng::::::ggggg::::::ggzzzzzzzz::::::z                             
+  K:::::::::::K     o::::o     o::::o  n:::::nnnn:::::ng:::::g     g:::::g       z::::::z                              
+  K::::::K:::::K    o::::o     o::::o  n::::n    n::::ng:::::g     g:::::g      z::::::z                               
+  K:::::K K:::::K   o::::o     o::::o  n::::n    n::::ng:::::g     g:::::g     z::::::z                                
+KK::::::K  K:::::KKKo::::o     o::::o  n::::n    n::::ng::::::g    g:::::g    z::::::z                                 
+K:::::::K   K::::::Ko:::::ooooo:::::o  n::::n    n::::ng:::::::ggggg:::::g   z::::::zzzzzzzz                           
+K:::::::K    K:::::Ko:::::::::::::::o  n::::n    n::::n g::::::::::::::::g  z::::::::::::::z                           
+K:::::::K    K:::::K oo:::::::::::oo   n::::n    n::::n  gg::::::::::::::g z:::::::::::::::z                           
+KKKKKKKKK    KKKKKKK   ooooooooooo     nnnnnn    nnnnnn    gggggggg::::::g zzzzzzzzzzzzzzzzz                           
+                                                                   g:::::g                                             
+                                                       gggggg      g:::::g                                             
+                                                       g:::::gg   gg:::::g                                             
+                                                        g::::::ggg:::::::g                                             
+                                                         gg:::::::::::::g                                              
+                                                           ggg::::::ggg                                                
+                                                              gggggg                                                   
+                                                                                                                       
+                                                                                                                       
+                                             iiii  lllllll RRRRRRRRRRRRRRRRR                             tttt          
+                                            i::::i l:::::l R::::::::::::::::R                         ttt:::t          
+                                             iiii  l:::::l R::::::RRRRRR:::::R                        t:::::t          
+                                                   l:::::l RR:::::R     R:::::R                       t:::::t          
+    eeeeeeeeeeee  vvvvvvv           vvvvvvviiiiiii  l::::l   R::::R     R:::::R  aaaaaaaaaaaaa  ttttttt:::::ttttttt    
+  ee::::::::::::ee v:::::v         v:::::v i:::::i  l::::l   R::::R     R:::::R  a::::::::::::a t:::::::::::::::::t    
+ e::::::eeeee:::::eev:::::v       v:::::v   i::::i  l::::l   R::::RRRRRR:::::R   aaaaaaaaa:::::at:::::::::::::::::t    
+e::::::e     e:::::e v:::::v     v:::::v    i::::i  l::::l   R:::::::::::::RR             a::::atttttt:::::::tttttt    
+e:::::::eeeee::::::e  v:::::v   v:::::v     i::::i  l::::l   R::::RRRRRR:::::R     aaaaaaa:::::a      t:::::t          
+e:::::::::::::::::e    v:::::v v:::::v      i::::i  l::::l   R::::R     R:::::R  aa::::::::::::a      t:::::t          
+e::::::eeeeeeeeeee      v:::::v:::::v       i::::i  l::::l   R::::R     R:::::R a::::aaaa::::::a      t:::::t          
+e:::::::e                v:::::::::v        i::::i  l::::l   R::::R     R:::::Ra::::a    a:::::a      t:::::t    tttttt
+e::::::::e                v:::::::v        i::::::il::::::lRR:::::R     R:::::Ra::::a    a:::::a      t::::::tttt:::::t
+ e::::::::eeeeeeee         v:::::v         i::::::il::::::lR::::::R     R:::::Ra:::::aaaa::::::a      tt::::::::::::::t
+  ee:::::::::::::e          v:::v          i::::::il::::::lR::::::R     R:::::R a::::::::::aa:::a       tt:::::::::::tt
+    eeeeeeeeeeeeee           vvv           iiiiiiiillllllllRRRRRRRR     RRRRRRR  aaaaaaaaaa  aaaa         ttttttttttt  
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+2020-03-23 13:04:43,469 - root - INFO - =====================上线SQL脚本文件生成工具=====================
+2020-03-23 13:04:43,471 - root - ERROR - [Errno 2] No such file or directory: 'deploy.sql'
+2020-03-23 13:09:11,033 - root - INFO - 
+                                                                                                                           
+                                                                                                                       
+KKKKKKKKK    KKKKKKK                                                                                                   
+K:::::::K    K:::::K                                                                                                   
+K:::::::K    K:::::K                                                                                                   
+K:::::::K   K::::::K                                                                                                   
+KK::::::K  K:::::KKK   ooooooooooo   nnnn  nnnnnnnn       ggggggggg   gggggzzzzzzzzzzzzzzzzz                           
+  K:::::K K:::::K    oo:::::::::::oo n:::nn::::::::nn    g:::::::::ggg::::gz:::::::::::::::z                           
+  K::::::K:::::K    o:::::::::::::::on::::::::::::::nn  g:::::::::::::::::gz::::::::::::::z                            
+  K:::::::::::K     o:::::ooooo:::::onn:::::::::::::::ng::::::ggggg::::::ggzzzzzzzz::::::z                             
+  K:::::::::::K     o::::o     o::::o  n:::::nnnn:::::ng:::::g     g:::::g       z::::::z                              
+  K::::::K:::::K    o::::o     o::::o  n::::n    n::::ng:::::g     g:::::g      z::::::z                               
+  K:::::K K:::::K   o::::o     o::::o  n::::n    n::::ng:::::g     g:::::g     z::::::z                                
+KK::::::K  K:::::KKKo::::o     o::::o  n::::n    n::::ng::::::g    g:::::g    z::::::z                                 
+K:::::::K   K::::::Ko:::::ooooo:::::o  n::::n    n::::ng:::::::ggggg:::::g   z::::::zzzzzzzz                           
+K:::::::K    K:::::Ko:::::::::::::::o  n::::n    n::::n g::::::::::::::::g  z::::::::::::::z                           
+K:::::::K    K:::::K oo:::::::::::oo   n::::n    n::::n  gg::::::::::::::g z:::::::::::::::z                           
+KKKKKKKKK    KKKKKKK   ooooooooooo     nnnnnn    nnnnnn    gggggggg::::::g zzzzzzzzzzzzzzzzz                           
+                                                                   g:::::g                                             
+                                                       gggggg      g:::::g                                             
+                                                       g:::::gg   gg:::::g                                             
+                                                        g::::::ggg:::::::g                                             
+                                                         gg:::::::::::::g                                              
+                                                           ggg::::::ggg                                                
+                                                              gggggg                                                   
+                                                                                                                       
+                                                                                                                       
+                                             iiii  lllllll RRRRRRRRRRRRRRRRR                             tttt          
+                                            i::::i l:::::l R::::::::::::::::R                         ttt:::t          
+                                             iiii  l:::::l R::::::RRRRRR:::::R                        t:::::t          
+                                                   l:::::l RR:::::R     R:::::R                       t:::::t          
+    eeeeeeeeeeee  vvvvvvv           vvvvvvviiiiiii  l::::l   R::::R     R:::::R  aaaaaaaaaaaaa  ttttttt:::::ttttttt    
+  ee::::::::::::ee v:::::v         v:::::v i:::::i  l::::l   R::::R     R:::::R  a::::::::::::a t:::::::::::::::::t    
+ e::::::eeeee:::::eev:::::v       v:::::v   i::::i  l::::l   R::::RRRRRR:::::R   aaaaaaaaa:::::at:::::::::::::::::t    
+e::::::e     e:::::e v:::::v     v:::::v    i::::i  l::::l   R:::::::::::::RR             a::::atttttt:::::::tttttt    
+e:::::::eeeee::::::e  v:::::v   v:::::v     i::::i  l::::l   R::::RRRRRR:::::R     aaaaaaa:::::a      t:::::t          
+e:::::::::::::::::e    v:::::v v:::::v      i::::i  l::::l   R::::R     R:::::R  aa::::::::::::a      t:::::t          
+e::::::eeeeeeeeeee      v:::::v:::::v       i::::i  l::::l   R::::R     R:::::R a::::aaaa::::::a      t:::::t          
+e:::::::e                v:::::::::v        i::::i  l::::l   R::::R     R:::::Ra::::a    a:::::a      t:::::t    tttttt
+e::::::::e                v:::::::v        i::::::il::::::lRR:::::R     R:::::Ra::::a    a:::::a      t::::::tttt:::::t
+ e::::::::eeeeeeee         v:::::v         i::::::il::::::lR::::::R     R:::::Ra:::::aaaa::::::a      tt::::::::::::::t
+  ee:::::::::::::e          v:::v          i::::::il::::::lR::::::R     R:::::R a::::::::::aa:::a       tt:::::::::::tt
+    eeeeeeeeeeeeee           vvv           iiiiiiiillllllllRRRRRRRR     RRRRRRR  aaaaaaaaaa  aaaa         ttttttttttt  
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+2020-03-23 13:09:11,307 - root - INFO - =====================上线SQL脚本文件生成工具=====================
+2020-03-23 13:09:11,309 - root - ERROR - [Errno 2] No such file or directory: 'deploy.sql'
+2020-03-23 13:09:28,990 - root - INFO - 
+                                                                                                                           
+                                                                                                                       
+KKKKKKKKK    KKKKKKK                                                                                                   
+K:::::::K    K:::::K                                                                                                   
+K:::::::K    K:::::K                                                                                                   
+K:::::::K   K::::::K                                                                                                   
+KK::::::K  K:::::KKK   ooooooooooo   nnnn  nnnnnnnn       ggggggggg   gggggzzzzzzzzzzzzzzzzz                           
+  K:::::K K:::::K    oo:::::::::::oo n:::nn::::::::nn    g:::::::::ggg::::gz:::::::::::::::z                           
+  K::::::K:::::K    o:::::::::::::::on::::::::::::::nn  g:::::::::::::::::gz::::::::::::::z                            
+  K:::::::::::K     o:::::ooooo:::::onn:::::::::::::::ng::::::ggggg::::::ggzzzzzzzz::::::z                             
+  K:::::::::::K     o::::o     o::::o  n:::::nnnn:::::ng:::::g     g:::::g       z::::::z                              
+  K::::::K:::::K    o::::o     o::::o  n::::n    n::::ng:::::g     g:::::g      z::::::z                               
+  K:::::K K:::::K   o::::o     o::::o  n::::n    n::::ng:::::g     g:::::g     z::::::z                                
+KK::::::K  K:::::KKKo::::o     o::::o  n::::n    n::::ng::::::g    g:::::g    z::::::z                                 
+K:::::::K   K::::::Ko:::::ooooo:::::o  n::::n    n::::ng:::::::ggggg:::::g   z::::::zzzzzzzz                           
+K:::::::K    K:::::Ko:::::::::::::::o  n::::n    n::::n g::::::::::::::::g  z::::::::::::::z                           
+K:::::::K    K:::::K oo:::::::::::oo   n::::n    n::::n  gg::::::::::::::g z:::::::::::::::z                           
+KKKKKKKKK    KKKKKKK   ooooooooooo     nnnnnn    nnnnnn    gggggggg::::::g zzzzzzzzzzzzzzzzz                           
+                                                                   g:::::g                                             
+                                                       gggggg      g:::::g                                             
+                                                       g:::::gg   gg:::::g                                             
+                                                        g::::::ggg:::::::g                                             
+                                                         gg:::::::::::::g                                              
+                                                           ggg::::::ggg                                                
+                                                              gggggg                                                   
+                                                                                                                       
+                                                                                                                       
+                                             iiii  lllllll RRRRRRRRRRRRRRRRR                             tttt          
+                                            i::::i l:::::l R::::::::::::::::R                         ttt:::t          
+                                             iiii  l:::::l R::::::RRRRRR:::::R                        t:::::t          
+                                                   l:::::l RR:::::R     R:::::R                       t:::::t          
+    eeeeeeeeeeee  vvvvvvv           vvvvvvviiiiiii  l::::l   R::::R     R:::::R  aaaaaaaaaaaaa  ttttttt:::::ttttttt    
+  ee::::::::::::ee v:::::v         v:::::v i:::::i  l::::l   R::::R     R:::::R  a::::::::::::a t:::::::::::::::::t    
+ e::::::eeeee:::::eev:::::v       v:::::v   i::::i  l::::l   R::::RRRRRR:::::R   aaaaaaaaa:::::at:::::::::::::::::t    
+e::::::e     e:::::e v:::::v     v:::::v    i::::i  l::::l   R:::::::::::::RR             a::::atttttt:::::::tttttt    
+e:::::::eeeee::::::e  v:::::v   v:::::v     i::::i  l::::l   R::::RRRRRR:::::R     aaaaaaa:::::a      t:::::t          
+e:::::::::::::::::e    v:::::v v:::::v      i::::i  l::::l   R::::R     R:::::R  aa::::::::::::a      t:::::t          
+e::::::eeeeeeeeeee      v:::::v:::::v       i::::i  l::::l   R::::R     R:::::R a::::aaaa::::::a      t:::::t          
+e:::::::e                v:::::::::v        i::::i  l::::l   R::::R     R:::::Ra::::a    a:::::a      t:::::t    tttttt
+e::::::::e                v:::::::v        i::::::il::::::lRR:::::R     R:::::Ra::::a    a:::::a      t::::::tttt:::::t
+ e::::::::eeeeeeee         v:::::v         i::::::il::::::lR::::::R     R:::::Ra:::::aaaa::::::a      tt::::::::::::::t
+  ee:::::::::::::e          v:::v          i::::::il::::::lR::::::R     R:::::R a::::::::::aa:::a       tt:::::::::::tt
+    eeeeeeeeeeeeee           vvv           iiiiiiiillllllllRRRRRRRR     RRRRRRR  aaaaaaaaaa  aaaa         ttttttttttt  
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+2020-03-23 13:09:29,489 - root - INFO - =====================上线SQL脚本文件生成工具=====================
+2020-03-23 13:09:29,597 - root - ERROR - [Errno 2] No such file or directory: 'deploy.sql'
+2020-03-23 13:09:57,043 - root - INFO - 
+                                                                                                                           
+                                                                                                                       
+KKKKKKKKK    KKKKKKK                                                                                                   
+K:::::::K    K:::::K                                                                                                   
+K:::::::K    K:::::K                                                                                                   
+K:::::::K   K::::::K                                                                                                   
+KK::::::K  K:::::KKK   ooooooooooo   nnnn  nnnnnnnn       ggggggggg   gggggzzzzzzzzzzzzzzzzz                           
+  K:::::K K:::::K    oo:::::::::::oo n:::nn::::::::nn    g:::::::::ggg::::gz:::::::::::::::z                           
+  K::::::K:::::K    o:::::::::::::::on::::::::::::::nn  g:::::::::::::::::gz::::::::::::::z                            
+  K:::::::::::K     o:::::ooooo:::::onn:::::::::::::::ng::::::ggggg::::::ggzzzzzzzz::::::z                             
+  K:::::::::::K     o::::o     o::::o  n:::::nnnn:::::ng:::::g     g:::::g       z::::::z                              
+  K::::::K:::::K    o::::o     o::::o  n::::n    n::::ng:::::g     g:::::g      z::::::z                               
+  K:::::K K:::::K   o::::o     o::::o  n::::n    n::::ng:::::g     g:::::g     z::::::z                                
+KK::::::K  K:::::KKKo::::o     o::::o  n::::n    n::::ng::::::g    g:::::g    z::::::z                                 
+K:::::::K   K::::::Ko:::::ooooo:::::o  n::::n    n::::ng:::::::ggggg:::::g   z::::::zzzzzzzz                           
+K:::::::K    K:::::Ko:::::::::::::::o  n::::n    n::::n g::::::::::::::::g  z::::::::::::::z                           
+K:::::::K    K:::::K oo:::::::::::oo   n::::n    n::::n  gg::::::::::::::g z:::::::::::::::z                           
+KKKKKKKKK    KKKKKKK   ooooooooooo     nnnnnn    nnnnnn    gggggggg::::::g zzzzzzzzzzzzzzzzz                           
+                                                                   g:::::g                                             
+                                                       gggggg      g:::::g                                             
+                                                       g:::::gg   gg:::::g                                             
+                                                        g::::::ggg:::::::g                                             
+                                                         gg:::::::::::::g                                              
+                                                           ggg::::::ggg                                                
+                                                              gggggg                                                   
+                                                                                                                       
+                                                                                                                       
+                                             iiii  lllllll RRRRRRRRRRRRRRRRR                             tttt          
+                                            i::::i l:::::l R::::::::::::::::R                         ttt:::t          
+                                             iiii  l:::::l R::::::RRRRRR:::::R                        t:::::t          
+                                                   l:::::l RR:::::R     R:::::R                       t:::::t          
+    eeeeeeeeeeee  vvvvvvv           vvvvvvviiiiiii  l::::l   R::::R     R:::::R  aaaaaaaaaaaaa  ttttttt:::::ttttttt    
+  ee::::::::::::ee v:::::v         v:::::v i:::::i  l::::l   R::::R     R:::::R  a::::::::::::a t:::::::::::::::::t    
+ e::::::eeeee:::::eev:::::v       v:::::v   i::::i  l::::l   R::::RRRRRR:::::R   aaaaaaaaa:::::at:::::::::::::::::t    
+e::::::e     e:::::e v:::::v     v:::::v    i::::i  l::::l   R:::::::::::::RR             a::::atttttt:::::::tttttt    
+e:::::::eeeee::::::e  v:::::v   v:::::v     i::::i  l::::l   R::::RRRRRR:::::R     aaaaaaa:::::a      t:::::t          
+e:::::::::::::::::e    v:::::v v:::::v      i::::i  l::::l   R::::R     R:::::R  aa::::::::::::a      t:::::t          
+e::::::eeeeeeeeeee      v:::::v:::::v       i::::i  l::::l   R::::R     R:::::R a::::aaaa::::::a      t:::::t          
+e:::::::e                v:::::::::v        i::::i  l::::l   R::::R     R:::::Ra::::a    a:::::a      t:::::t    tttttt
+e::::::::e                v:::::::v        i::::::il::::::lRR:::::R     R:::::Ra::::a    a:::::a      t::::::tttt:::::t
+ e::::::::eeeeeeee         v:::::v         i::::::il::::::lR::::::R     R:::::Ra:::::aaaa::::::a      tt::::::::::::::t
+  ee:::::::::::::e          v:::v          i::::::il::::::lR::::::R     R:::::R a::::::::::aa:::a       tt:::::::::::tt
+    eeeeeeeeeeeeee           vvv           iiiiiiiillllllllRRRRRRRR     RRRRRRR  aaaaaaaaaa  aaaa         ttttttttttt  
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+2020-03-23 13:09:57,165 - root - INFO - =====================上线SQL脚本文件生成工具=====================
+2020-03-23 13:09:57,204 - root - ERROR - [Errno 2] No such file or directory: 'deploy.sql'
+2020-03-23 13:10:50,657 - root - INFO - 
+                                                                                                                           
+                                                                                                                       
+KKKKKKKKK    KKKKKKK                                                                                                   
+K:::::::K    K:::::K                                                                                                   
+K:::::::K    K:::::K                                                                                                   
+K:::::::K   K::::::K                                                                                                   
+KK::::::K  K:::::KKK   ooooooooooo   nnnn  nnnnnnnn       ggggggggg   gggggzzzzzzzzzzzzzzzzz                           
+  K:::::K K:::::K    oo:::::::::::oo n:::nn::::::::nn    g:::::::::ggg::::gz:::::::::::::::z                           
+  K::::::K:::::K    o:::::::::::::::on::::::::::::::nn  g:::::::::::::::::gz::::::::::::::z                            
+  K:::::::::::K     o:::::ooooo:::::onn:::::::::::::::ng::::::ggggg::::::ggzzzzzzzz::::::z                             
+  K:::::::::::K     o::::o     o::::o  n:::::nnnn:::::ng:::::g     g:::::g       z::::::z                              
+  K::::::K:::::K    o::::o     o::::o  n::::n    n::::ng:::::g     g:::::g      z::::::z                               
+  K:::::K K:::::K   o::::o     o::::o  n::::n    n::::ng:::::g     g:::::g     z::::::z                                
+KK::::::K  K:::::KKKo::::o     o::::o  n::::n    n::::ng::::::g    g:::::g    z::::::z                                 
+K:::::::K   K::::::Ko:::::ooooo:::::o  n::::n    n::::ng:::::::ggggg:::::g   z::::::zzzzzzzz                           
+K:::::::K    K:::::Ko:::::::::::::::o  n::::n    n::::n g::::::::::::::::g  z::::::::::::::z                           
+K:::::::K    K:::::K oo:::::::::::oo   n::::n    n::::n  gg::::::::::::::g z:::::::::::::::z                           
+KKKKKKKKK    KKKKKKK   ooooooooooo     nnnnnn    nnnnnn    gggggggg::::::g zzzzzzzzzzzzzzzzz                           
+                                                                   g:::::g                                             
+                                                       gggggg      g:::::g                                             
+                                                       g:::::gg   gg:::::g                                             
+                                                        g::::::ggg:::::::g                                             
+                                                         gg:::::::::::::g                                              
+                                                           ggg::::::ggg                                                
+                                                              gggggg                                                   
+                                                                                                                       
+                                                                                                                       
+                                             iiii  lllllll RRRRRRRRRRRRRRRRR                             tttt          
+                                            i::::i l:::::l R::::::::::::::::R                         ttt:::t          
+                                             iiii  l:::::l R::::::RRRRRR:::::R                        t:::::t          
+                                                   l:::::l RR:::::R     R:::::R                       t:::::t          
+    eeeeeeeeeeee  vvvvvvv           vvvvvvviiiiiii  l::::l   R::::R     R:::::R  aaaaaaaaaaaaa  ttttttt:::::ttttttt    
+  ee::::::::::::ee v:::::v         v:::::v i:::::i  l::::l   R::::R     R:::::R  a::::::::::::a t:::::::::::::::::t    
+ e::::::eeeee:::::eev:::::v       v:::::v   i::::i  l::::l   R::::RRRRRR:::::R   aaaaaaaaa:::::at:::::::::::::::::t    
+e::::::e     e:::::e v:::::v     v:::::v    i::::i  l::::l   R:::::::::::::RR             a::::atttttt:::::::tttttt    
+e:::::::eeeee::::::e  v:::::v   v:::::v     i::::i  l::::l   R::::RRRRRR:::::R     aaaaaaa:::::a      t:::::t          
+e:::::::::::::::::e    v:::::v v:::::v      i::::i  l::::l   R::::R     R:::::R  aa::::::::::::a      t:::::t          
+e::::::eeeeeeeeeee      v:::::v:::::v       i::::i  l::::l   R::::R     R:::::R a::::aaaa::::::a      t:::::t          
+e:::::::e                v:::::::::v        i::::i  l::::l   R::::R     R:::::Ra::::a    a:::::a      t:::::t    tttttt
+e::::::::e                v:::::::v        i::::::il::::::lRR:::::R     R:::::Ra::::a    a:::::a      t::::::tttt:::::t
+ e::::::::eeeeeeee         v:::::v         i::::::il::::::lR::::::R     R:::::Ra:::::aaaa::::::a      tt::::::::::::::t
+  ee:::::::::::::e          v:::v          i::::::il::::::lR::::::R     R:::::R a::::::::::aa:::a       tt:::::::::::tt
+    eeeeeeeeeeeeee           vvv           iiiiiiiillllllllRRRRRRRR     RRRRRRR  aaaaaaaaaa  aaaa         ttttttttttt  
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+                                                                                                                       
+2020-03-23 13:10:51,256 - root - INFO - =====================上线SQL脚本文件生成工具=====================
+2020-03-23 13:11:21,918 - root - INFO - 
+                                                                                                                           
+                                                                                                                       
+KKKKKKKKK    KKKKKKK                                                                                                   
+K:::::::K    K:::::K                                                                                                   
+K:::::::K    K:::::K                                                                                                   
+K:::::::K   K::::::K                                                                                                   
+KK::::::K  K:::::KKK   ooooooooooo   nnnn  nnnnnnnn       ggggggggg   gggggzzzzzzzzzzzzzzzzz                           
+  K:::::K K:::::K    oo:::::::::::oo n:::nn::::::::nn    g:::::::::ggg::::gz:::::::::::::::z                           
+  K::::::K:::::K    o:::::::::::::::on::::::::::::::nn  g:::::::::::::::::gz::::::::::::::z                            
+  K:::::::::::K     o:::::ooooo:::::onn:::::::::::::::ng::::::ggggg::::::ggzzzzzzzz::::::z                             
+  K:::::::::::K     o::::o     o::::o  n:::::nnnn:::::ng:::::g     g:::::g       z::::::z                              
+  K::::::K:::::K    o::::o     o::::o  n::::n    n::::ng:::::g     g:::::g      z::::::z                               
+  K:::::K K:::::K   o::::o     o::::o  n::::n    n::::ng:::::g     g:::::g     z::::::z                                
+KK::::::K  K:::::KKKo::::o     o::::o  n::::n    n::::ng::::::g    g:::::g    z::::::z                                 
+K:::::::K   K::::::Ko:::::ooooo:::::o  n::::n    n::::ng:::::::ggggg:::::g   z::::::zzzzzzzz                           
+K:::::::K    K:::::Ko:::::::::::::::o  n::::n    n::::n g::::::::::::::::g  z::::::::::::::z                           
+K:::::::K    K:::::K oo:::::::::::oo   n::::n    n::::n  gg::::::::::::::g z:::::::::::::::z                           
+KKKKKKKKK    KKKKKKK   ooooooooooo     nnnnnn    nnnnnn    gggggggg::::::g zzzzzzzzzzzzzzzzz                           
+                                                                   g:::::g                                             
+                                                       gggggg      g:::::g                                             
+                                                       g:::::gg   gg:::::g                                             
+                                                        g::::::ggg:::::::g                                             
+                                                         gg:::::::::::::g                                              
+                                                           ggg::::::ggg                                                
+                                                              gggggg                                                   
+                                                                                                                       
+                                                                                                                       
+                                             iiii  lllllll RRRRRRRRRRRRRRRRR                             tttt          
+                                            i::::i l:::::l R::::::::::::::::R                         ttt:::t          
+                                             iiii  l:::::l R::::::RRRRRR:::::R                        t:::::t          
+                                                   l:::::l RR:::::R     R:::::R                       t:::::t          
+    eeeeeeeeeeee  vvvvvvv           vvvvvvviiiiiii  l::::l   R::::R     R:::::R  aaaaaaaaaaaaa  ttttttt:::::ttttttt    
+  ee::::::::::::ee v:::::v         v:::::v i:::::i  l::::l   R::::R     R:::::R  a::::::::::::a t:::::::::::::::::t    
+ e::::::eeeee:::::eev:::::v       v:::::v   i::::i  l::::l   R::::RRRRRR:::::R   aaaaaaaaa:::::at:::::::::::::::::t    
+e::::::e     e:::::e v:::::v     v:::::v    i::::i  l::::l   R:::::::::::::RR             a::::atttttt:::::::tttttt    
+e:::::::eeeee::::::e  v:::::v   v:::::v     i::::i  l::::l   R::::RRRRRR:::::R     aaaaaaa:::::a      t:::::t          
+e:::::::::::::::::e    v:::::v v:::::v      i::::i  l::::l   R::::R     R:::::R  aa::::::::::::a      t:::::t          
+e::::::eeeeeeeeeee      v:::::v:::::v       i::::i  l::::l   R::::R     R:::::R a::::aaaa::::::a      t:::::t          
+e:::::::e                v:::::::::v        i::::i  l::::l   R::::R     R:::::Ra::::a    a:::::a      t:::::t    tttttt
+e::::::::e                v:::::::v        i::::::il::::::lRR:::::R     R:::::Ra::::a    a:::::a      t::::::tttt:::::t
+ e::::::::eeeeeeee         v:::::v         i::::::il::::::lR::::::R     R:::::Ra:::::aaaa::::::a      tt::::::::::::::t
+  ee:::::::::::::e          v:::v          i::::::il::::::lR::::::R     R:::::R a::::::::::aa:::a       tt:::::::::::tt
+    eeeeeeeeeeeeee           vvv           iiiiiiiillllllllRRRRRRRR     RRRRRRR  aaaaaaaaaa  aaaa         ttttttttttt  
+                                                                                                                       
+2020-03-23 13:11:22,073 - root - INFO - =====================上线SQL脚本文件生成工具=====================
+2020-03-23 13:16:05,538 - root - INFO - 
+                                                                                                                           
+                                                                                                                       
+KKKKKKKKK    KKKKKKK                                                                                                   
+K:::::::K    K:::::K                                                                                                   
+K:::::::K    K:::::K                                                                                                   
+K:::::::K   K::::::K                                                                                                   
+KK::::::K  K:::::KKK   ooooooooooo   nnnn  nnnnnnnn       ggggggggg   gggggzzzzzzzzzzzzzzzzz                           
+  K:::::K K:::::K    oo:::::::::::oo n:::nn::::::::nn    g:::::::::ggg::::gz:::::::::::::::z                           
+  K::::::K:::::K    o:::::::::::::::on::::::::::::::nn  g:::::::::::::::::gz::::::::::::::z                            
+  K:::::::::::K     o:::::ooooo:::::onn:::::::::::::::ng::::::ggggg::::::ggzzzzzzzz::::::z                             
+  K:::::::::::K     o::::o     o::::o  n:::::nnnn:::::ng:::::g     g:::::g       z::::::z                              
+  K::::::K:::::K    o::::o     o::::o  n::::n    n::::ng:::::g     g:::::g      z::::::z                               
+  K:::::K K:::::K   o::::o     o::::o  n::::n    n::::ng:::::g     g:::::g     z::::::z                                
+KK::::::K  K:::::KKKo::::o     o::::o  n::::n    n::::ng::::::g    g:::::g    z::::::z                                 
+K:::::::K   K::::::Ko:::::ooooo:::::o  n::::n    n::::ng:::::::ggggg:::::g   z::::::zzzzzzzz                           
+K:::::::K    K:::::Ko:::::::::::::::o  n::::n    n::::n g::::::::::::::::g  z::::::::::::::z                           
+K:::::::K    K:::::K oo:::::::::::oo   n::::n    n::::n  gg::::::::::::::g z:::::::::::::::z                           
+KKKKKKKKK    KKKKKKK   ooooooooooo     nnnnnn    nnnnnn    gggggggg::::::g zzzzzzzzzzzzzzzzz                           
+                                                                   g:::::g                                             
+                                                       gggggg      g:::::g                                             
+                                                       g:::::gg   gg:::::g                                             
+                                                        g::::::ggg:::::::g                                             
+                                                         gg:::::::::::::g                                              
+                                                           ggg::::::ggg                                                
+                                                              gggggg                                                   
+                                                                                                                       
+                                                                                                                       
+                                             iiii  lllllll RRRRRRRRRRRRRRRRR                             tttt          
+                                            i::::i l:::::l R::::::::::::::::R                         ttt:::t          
+                                             iiii  l:::::l R::::::RRRRRR:::::R                        t:::::t          
+                                                   l:::::l RR:::::R     R:::::R                       t:::::t          
+    eeeeeeeeeeee  vvvvvvv           vvvvvvviiiiiii  l::::l   R::::R     R:::::R  aaaaaaaaaaaaa  ttttttt:::::ttttttt    
+  ee::::::::::::ee v:::::v         v:::::v i:::::i  l::::l   R::::R     R:::::R  a::::::::::::a t:::::::::::::::::t    
+ e::::::eeeee:::::eev:::::v       v:::::v   i::::i  l::::l   R::::RRRRRR:::::R   aaaaaaaaa:::::at:::::::::::::::::t    
+e::::::e     e:::::e v:::::v     v:::::v    i::::i  l::::l   R:::::::::::::RR             a::::atttttt:::::::tttttt    
+e:::::::eeeee::::::e  v:::::v   v:::::v     i::::i  l::::l   R::::RRRRRR:::::R     aaaaaaa:::::a      t:::::t          
+e:::::::::::::::::e    v:::::v v:::::v      i::::i  l::::l   R::::R     R:::::R  aa::::::::::::a      t:::::t          
+e::::::eeeeeeeeeee      v:::::v:::::v       i::::i  l::::l   R::::R     R:::::R a::::aaaa::::::a      t:::::t          
+e:::::::e                v:::::::::v        i::::i  l::::l   R::::R     R:::::Ra::::a    a:::::a      t:::::t    tttttt
+e::::::::e                v:::::::v        i::::::il::::::lRR:::::R     R:::::Ra::::a    a:::::a      t::::::tttt:::::t
+ e::::::::eeeeeeee         v:::::v         i::::::il::::::lR::::::R     R:::::Ra:::::aaaa::::::a      tt::::::::::::::t
+  ee:::::::::::::e          v:::v          i::::::il::::::lR::::::R     R:::::R a::::::::::aa:::a       tt:::::::::::tt
+    eeeeeeeeeeeeee           vvv           iiiiiiiillllllllRRRRRRRR     RRRRRRR  aaaaaaaaaa  aaaa         ttttttttttt  
+                                                                                                                       
+2020-03-23 13:16:05,935 - root - INFO - =====================上线SQL脚本文件生成工具=====================
+2020-03-23 13:16:52,700 - root - INFO - 
+                                                                                                                           
+                                                                                                                       
+KKKKKKKKK    KKKKKKK                                                                                                   
+K:::::::K    K:::::K                                                                                                   
+K:::::::K    K:::::K                                                                                                   
+K:::::::K   K::::::K                                                                                                   
+KK::::::K  K:::::KKK   ooooooooooo   nnnn  nnnnnnnn       ggggggggg   gggggzzzzzzzzzzzzzzzzz                           
+  K:::::K K:::::K    oo:::::::::::oo n:::nn::::::::nn    g:::::::::ggg::::gz:::::::::::::::z                           
+  K::::::K:::::K    o:::::::::::::::on::::::::::::::nn  g:::::::::::::::::gz::::::::::::::z                            
+  K:::::::::::K     o:::::ooooo:::::onn:::::::::::::::ng::::::ggggg::::::ggzzzzzzzz::::::z                             
+  K:::::::::::K     o::::o     o::::o  n:::::nnnn:::::ng:::::g     g:::::g       z::::::z                              
+  K::::::K:::::K    o::::o     o::::o  n::::n    n::::ng:::::g     g:::::g      z::::::z                               
+  K:::::K K:::::K   o::::o     o::::o  n::::n    n::::ng:::::g     g:::::g     z::::::z                                
+KK::::::K  K:::::KKKo::::o     o::::o  n::::n    n::::ng::::::g    g:::::g    z::::::z                                 
+K:::::::K   K::::::Ko:::::ooooo:::::o  n::::n    n::::ng:::::::ggggg:::::g   z::::::zzzzzzzz                           
+K:::::::K    K:::::Ko:::::::::::::::o  n::::n    n::::n g::::::::::::::::g  z::::::::::::::z                           
+K:::::::K    K:::::K oo:::::::::::oo   n::::n    n::::n  gg::::::::::::::g z:::::::::::::::z                           
+KKKKKKKKK    KKKKKKK   ooooooooooo     nnnnnn    nnnnnn    gggggggg::::::g zzzzzzzzzzzzzzzzz                           
+                                                                   g:::::g                                             
+                                                       gggggg      g:::::g                                             
+                                                       g:::::gg   gg:::::g                                             
+                                                        g::::::ggg:::::::g                                             
+                                                         gg:::::::::::::g                                              
+                                                           ggg::::::ggg                                                
+                                                              gggggg                                                   
+                                                                                                                       
+                                                                                                                       
+                                             iiii  lllllll RRRRRRRRRRRRRRRRR                             tttt          
+                                            i::::i l:::::l R::::::::::::::::R                         ttt:::t          
+                                             iiii  l:::::l R::::::RRRRRR:::::R                        t:::::t          
+                                                   l:::::l RR:::::R     R:::::R                       t:::::t          
+    eeeeeeeeeeee  vvvvvvv           vvvvvvviiiiiii  l::::l   R::::R     R:::::R  aaaaaaaaaaaaa  ttttttt:::::ttttttt    
+  ee::::::::::::ee v:::::v         v:::::v i:::::i  l::::l   R::::R     R:::::R  a::::::::::::a t:::::::::::::::::t    
+ e::::::eeeee:::::eev:::::v       v:::::v   i::::i  l::::l   R::::RRRRRR:::::R   aaaaaaaaa:::::at:::::::::::::::::t    
+e::::::e     e:::::e v:::::v     v:::::v    i::::i  l::::l   R:::::::::::::RR             a::::atttttt:::::::tttttt    
+e:::::::eeeee::::::e  v:::::v   v:::::v     i::::i  l::::l   R::::RRRRRR:::::R     aaaaaaa:::::a      t:::::t          
+e:::::::::::::::::e    v:::::v v:::::v      i::::i  l::::l   R::::R     R:::::R  aa::::::::::::a      t:::::t          
+e::::::eeeeeeeeeee      v:::::v:::::v       i::::i  l::::l   R::::R     R:::::R a::::aaaa::::::a      t:::::t          
+e:::::::e                v:::::::::v        i::::i  l::::l   R::::R     R:::::Ra::::a    a:::::a      t:::::t    tttttt
+e::::::::e                v:::::::v        i::::::il::::::lRR:::::R     R:::::Ra::::a    a:::::a      t::::::tttt:::::t
+ e::::::::eeeeeeee         v:::::v         i::::::il::::::lR::::::R     R:::::Ra:::::aaaa::::::a      tt::::::::::::::t
+  ee:::::::::::::e          v:::v          i::::::il::::::lR::::::R     R:::::R a::::::::::aa:::a       tt:::::::::::tt
+    eeeeeeeeeeeeee           vvv           iiiiiiiillllllllRRRRRRRR     RRRRRRR  aaaaaaaaaa  aaaa         ttttttttttt  
+                                                                                                                       
+2020-03-23 13:16:53,020 - root - INFO - =====================上线SQL脚本文件生成工具=====================
+2020-03-23 13:17:10,376 - root - INFO - 
+                                                                                                                           
+                                                                                                                       
+KKKKKKKKK    KKKKKKK                                                                                                   
+K:::::::K    K:::::K                                                                                                   
+K:::::::K    K:::::K                                                                                                   
+K:::::::K   K::::::K                                                                                                   
+KK::::::K  K:::::KKK   ooooooooooo   nnnn  nnnnnnnn       ggggggggg   gggggzzzzzzzzzzzzzzzzz                           
+  K:::::K K:::::K    oo:::::::::::oo n:::nn::::::::nn    g:::::::::ggg::::gz:::::::::::::::z                           
+  K::::::K:::::K    o:::::::::::::::on::::::::::::::nn  g:::::::::::::::::gz::::::::::::::z                            
+  K:::::::::::K     o:::::ooooo:::::onn:::::::::::::::ng::::::ggggg::::::ggzzzzzzzz::::::z                             
+  K:::::::::::K     o::::o     o::::o  n:::::nnnn:::::ng:::::g     g:::::g       z::::::z                              
+  K::::::K:::::K    o::::o     o::::o  n::::n    n::::ng:::::g     g:::::g      z::::::z                               
+  K:::::K K:::::K   o::::o     o::::o  n::::n    n::::ng:::::g     g:::::g     z::::::z                                
+KK::::::K  K:::::KKKo::::o     o::::o  n::::n    n::::ng::::::g    g:::::g    z::::::z                                 
+K:::::::K   K::::::Ko:::::ooooo:::::o  n::::n    n::::ng:::::::ggggg:::::g   z::::::zzzzzzzz                           
+K:::::::K    K:::::Ko:::::::::::::::o  n::::n    n::::n g::::::::::::::::g  z::::::::::::::z                           
+K:::::::K    K:::::K oo:::::::::::oo   n::::n    n::::n  gg::::::::::::::g z:::::::::::::::z                           
+KKKKKKKKK    KKKKKKK   ooooooooooo     nnnnnn    nnnnnn    gggggggg::::::g zzzzzzzzzzzzzzzzz                           
+                                                                   g:::::g                                             
+                                                       gggggg      g:::::g                                             
+                                                       g:::::gg   gg:::::g                                             
+                                                        g::::::ggg:::::::g                                             
+                                                         gg:::::::::::::g                                              
+                                                           ggg::::::ggg                                                
+                                                              gggggg                                                   
+                                                                                                                       
+                                                                                                                       
+                                             iiii  lllllll RRRRRRRRRRRRRRRRR                             tttt          
+                                            i::::i l:::::l R::::::::::::::::R                         ttt:::t          
+                                             iiii  l:::::l R::::::RRRRRR:::::R                        t:::::t          
+                                                   l:::::l RR:::::R     R:::::R                       t:::::t          
+    eeeeeeeeeeee  vvvvvvv           vvvvvvviiiiiii  l::::l   R::::R     R:::::R  aaaaaaaaaaaaa  ttttttt:::::ttttttt    
+  ee::::::::::::ee v:::::v         v:::::v i:::::i  l::::l   R::::R     R:::::R  a::::::::::::a t:::::::::::::::::t    
+ e::::::eeeee:::::eev:::::v       v:::::v   i::::i  l::::l   R::::RRRRRR:::::R   aaaaaaaaa:::::at:::::::::::::::::t    
+e::::::e     e:::::e v:::::v     v:::::v    i::::i  l::::l   R:::::::::::::RR             a::::atttttt:::::::tttttt    
+e:::::::eeeee::::::e  v:::::v   v:::::v     i::::i  l::::l   R::::RRRRRR:::::R     aaaaaaa:::::a      t:::::t          
+e:::::::::::::::::e    v:::::v v:::::v      i::::i  l::::l   R::::R     R:::::R  aa::::::::::::a      t:::::t          
+e::::::eeeeeeeeeee      v:::::v:::::v       i::::i  l::::l   R::::R     R:::::R a::::aaaa::::::a      t:::::t          
+e:::::::e                v:::::::::v        i::::i  l::::l   R::::R     R:::::Ra::::a    a:::::a      t:::::t    tttttt
+e::::::::e                v:::::::v        i::::::il::::::lRR:::::R     R:::::Ra::::a    a:::::a      t::::::tttt:::::t
+ e::::::::eeeeeeee         v:::::v         i::::::il::::::lR::::::R     R:::::Ra:::::aaaa::::::a      tt::::::::::::::t
+  ee:::::::::::::e          v:::v          i::::::il::::::lR::::::R     R:::::R a::::::::::aa:::a       tt:::::::::::tt
+    eeeeeeeeeeeeee           vvv           iiiiiiiillllllllRRRRRRRR     RRRRRRR  aaaaaaaaaa  aaaa         ttttttttttt  
+                                                                                                                       
+2020-03-23 13:17:10,541 - root - INFO - =====================上线SQL脚本文件生成工具=====================
+2020-03-23 16:15:19,130 - root - INFO - 
+                                                                                                                           
+                                                                                                                       
+KKKKKKKKK    KKKKKKK                                                                                                   
+K:::::::K    K:::::K                                                                                                   
+K:::::::K    K:::::K                                                                                                   
+K:::::::K   K::::::K                                                                                                   
+KK::::::K  K:::::KKK   ooooooooooo   nnnn  nnnnnnnn       ggggggggg   gggggzzzzzzzzzzzzzzzzz                           
+  K:::::K K:::::K    oo:::::::::::oo n:::nn::::::::nn    g:::::::::ggg::::gz:::::::::::::::z                           
+  K::::::K:::::K    o:::::::::::::::on::::::::::::::nn  g:::::::::::::::::gz::::::::::::::z                            
+  K:::::::::::K     o:::::ooooo:::::onn:::::::::::::::ng::::::ggggg::::::ggzzzzzzzz::::::z                             
+  K:::::::::::K     o::::o     o::::o  n:::::nnnn:::::ng:::::g     g:::::g       z::::::z                              
+  K::::::K:::::K    o::::o     o::::o  n::::n    n::::ng:::::g     g:::::g      z::::::z                               
+  K:::::K K:::::K   o::::o     o::::o  n::::n    n::::ng:::::g     g:::::g     z::::::z                                
+KK::::::K  K:::::KKKo::::o     o::::o  n::::n    n::::ng::::::g    g:::::g    z::::::z                                 
+K:::::::K   K::::::Ko:::::ooooo:::::o  n::::n    n::::ng:::::::ggggg:::::g   z::::::zzzzzzzz                           
+K:::::::K    K:::::Ko:::::::::::::::o  n::::n    n::::n g::::::::::::::::g  z::::::::::::::z                           
+K:::::::K    K:::::K oo:::::::::::oo   n::::n    n::::n  gg::::::::::::::g z:::::::::::::::z                           
+KKKKKKKKK    KKKKKKK   ooooooooooo     nnnnnn    nnnnnn    gggggggg::::::g zzzzzzzzzzzzzzzzz                           
+                                                                   g:::::g                                             
+                                                       gggggg      g:::::g                                             
+                                                       g:::::gg   gg:::::g                                             
+                                                        g::::::ggg:::::::g                                             
+                                                         gg:::::::::::::g                                              
+                                                           ggg::::::ggg                                                
+                                                              gggggg                                                   
+                                                                                                                       
+                                                                                                                       
+                                             iiii  lllllll RRRRRRRRRRRRRRRRR                             tttt          
+                                            i::::i l:::::l R::::::::::::::::R                         ttt:::t          
+                                             iiii  l:::::l R::::::RRRRRR:::::R                        t:::::t          
+                                                   l:::::l RR:::::R     R:::::R                       t:::::t          
+    eeeeeeeeeeee  vvvvvvv           vvvvvvviiiiiii  l::::l   R::::R     R:::::R  aaaaaaaaaaaaa  ttttttt:::::ttttttt    
+  ee::::::::::::ee v:::::v         v:::::v i:::::i  l::::l   R::::R     R:::::R  a::::::::::::a t:::::::::::::::::t    
+ e::::::eeeee:::::eev:::::v       v:::::v   i::::i  l::::l   R::::RRRRRR:::::R   aaaaaaaaa:::::at:::::::::::::::::t    
+e::::::e     e:::::e v:::::v     v:::::v    i::::i  l::::l   R:::::::::::::RR             a::::atttttt:::::::tttttt    
+e:::::::eeeee::::::e  v:::::v   v:::::v     i::::i  l::::l   R::::RRRRRR:::::R     aaaaaaa:::::a      t:::::t          
+e:::::::::::::::::e    v:::::v v:::::v      i::::i  l::::l   R::::R     R:::::R  aa::::::::::::a      t:::::t          
+e::::::eeeeeeeeeee      v:::::v:::::v       i::::i  l::::l   R::::R     R:::::R a::::aaaa::::::a      t:::::t          
+e:::::::e                v:::::::::v        i::::i  l::::l   R::::R     R:::::Ra::::a    a:::::a      t:::::t    tttttt
+e::::::::e                v:::::::v        i::::::il::::::lRR:::::R     R:::::Ra::::a    a:::::a      t::::::tttt:::::t
+ e::::::::eeeeeeee         v:::::v         i::::::il::::::lR::::::R     R:::::Ra:::::aaaa::::::a      tt::::::::::::::t
+  ee:::::::::::::e          v:::v          i::::::il::::::lR::::::R     R:::::R a::::::::::aa:::a       tt:::::::::::tt
+    eeeeeeeeeeeeee           vvv           iiiiiiiillllllllRRRRRRRR     RRRRRRR  aaaaaaaaaa  aaaa         ttttttttttt  
+                                                                                                                       
+2020-03-23 16:15:19,408 - root - INFO - =====================上线SQL脚本文件生成工具=====================
+2020-03-23 16:17:39,277 - root - INFO - 
+                                                                                                                           
+                                                                                                                       
+KKKKKKKKK    KKKKKKK                                                                                                   
+K:::::::K    K:::::K                                                                                                   
+K:::::::K    K:::::K                                                                                                   
+K:::::::K   K::::::K                                                                                                   
+KK::::::K  K:::::KKK   ooooooooooo   nnnn  nnnnnnnn       ggggggggg   gggggzzzzzzzzzzzzzzzzz                           
+  K:::::K K:::::K    oo:::::::::::oo n:::nn::::::::nn    g:::::::::ggg::::gz:::::::::::::::z                           
+  K::::::K:::::K    o:::::::::::::::on::::::::::::::nn  g:::::::::::::::::gz::::::::::::::z                            
+  K:::::::::::K     o:::::ooooo:::::onn:::::::::::::::ng::::::ggggg::::::ggzzzzzzzz::::::z                             
+  K:::::::::::K     o::::o     o::::o  n:::::nnnn:::::ng:::::g     g:::::g       z::::::z                              
+  K::::::K:::::K    o::::o     o::::o  n::::n    n::::ng:::::g     g:::::g      z::::::z                               
+  K:::::K K:::::K   o::::o     o::::o  n::::n    n::::ng:::::g     g:::::g     z::::::z                                
+KK::::::K  K:::::KKKo::::o     o::::o  n::::n    n::::ng::::::g    g:::::g    z::::::z                                 
+K:::::::K   K::::::Ko:::::ooooo:::::o  n::::n    n::::ng:::::::ggggg:::::g   z::::::zzzzzzzz                           
+K:::::::K    K:::::Ko:::::::::::::::o  n::::n    n::::n g::::::::::::::::g  z::::::::::::::z                           
+K:::::::K    K:::::K oo:::::::::::oo   n::::n    n::::n  gg::::::::::::::g z:::::::::::::::z                           
+KKKKKKKKK    KKKKKKK   ooooooooooo     nnnnnn    nnnnnn    gggggggg::::::g zzzzzzzzzzzzzzzzz                           
+                                                                   g:::::g                                             
+                                                       gggggg      g:::::g                                             
+                                                       g:::::gg   gg:::::g                                             
+                                                        g::::::ggg:::::::g                                             
+                                                         gg:::::::::::::g                                              
+                                                           ggg::::::ggg                                                
+                                                              gggggg                                                   
+                                                                                                                       
+                                                                                                                       
+                                             iiii  lllllll RRRRRRRRRRRRRRRRR                             tttt          
+                                            i::::i l:::::l R::::::::::::::::R                         ttt:::t          
+                                             iiii  l:::::l R::::::RRRRRR:::::R                        t:::::t          
+                                                   l:::::l RR:::::R     R:::::R                       t:::::t          
+    eeeeeeeeeeee  vvvvvvv           vvvvvvviiiiiii  l::::l   R::::R     R:::::R  aaaaaaaaaaaaa  ttttttt:::::ttttttt    
+  ee::::::::::::ee v:::::v         v:::::v i:::::i  l::::l   R::::R     R:::::R  a::::::::::::a t:::::::::::::::::t    
+ e::::::eeeee:::::eev:::::v       v:::::v   i::::i  l::::l   R::::RRRRRR:::::R   aaaaaaaaa:::::at:::::::::::::::::t    
+e::::::e     e:::::e v:::::v     v:::::v    i::::i  l::::l   R:::::::::::::RR             a::::atttttt:::::::tttttt    
+e:::::::eeeee::::::e  v:::::v   v:::::v     i::::i  l::::l   R::::RRRRRR:::::R     aaaaaaa:::::a      t:::::t          
+e:::::::::::::::::e    v:::::v v:::::v      i::::i  l::::l   R::::R     R:::::R  aa::::::::::::a      t:::::t          
+e::::::eeeeeeeeeee      v:::::v:::::v       i::::i  l::::l   R::::R     R:::::R a::::aaaa::::::a      t:::::t          
+e:::::::e                v:::::::::v        i::::i  l::::l   R::::R     R:::::Ra::::a    a:::::a      t:::::t    tttttt
+e::::::::e                v:::::::v        i::::::il::::::lRR:::::R     R:::::Ra::::a    a:::::a      t::::::tttt:::::t
+ e::::::::eeeeeeee         v:::::v         i::::::il::::::lR::::::R     R:::::Ra:::::aaaa::::::a      tt::::::::::::::t
+  ee:::::::::::::e          v:::v          i::::::il::::::lR::::::R     R:::::R a::::::::::aa:::a       tt:::::::::::tt
+    eeeeeeeeeeeeee           vvv           iiiiiiiillllllllRRRRRRRR     RRRRRRR  aaaaaaaaaa  aaaa         ttttttttttt  
+                                                                                                                       
+2020-03-23 16:17:39,901 - root - INFO - =====================上线SQL脚本文件生成工具=====================
+2020-03-23 16:17:43,135 - root - ERROR - sql类型没有匹配到：
+2020-03-23 16:18:33,812 - root - INFO - 
+                                                                                                                           
+                                                                                                                       
+KKKKKKKKK    KKKKKKK                                                                                                   
+K:::::::K    K:::::K                                                                                                   
+K:::::::K    K:::::K                                                                                                   
+K:::::::K   K::::::K                                                                                                   
+KK::::::K  K:::::KKK   ooooooooooo   nnnn  nnnnnnnn       ggggggggg   gggggzzzzzzzzzzzzzzzzz                           
+  K:::::K K:::::K    oo:::::::::::oo n:::nn::::::::nn    g:::::::::ggg::::gz:::::::::::::::z                           
+  K::::::K:::::K    o:::::::::::::::on::::::::::::::nn  g:::::::::::::::::gz::::::::::::::z                            
+  K:::::::::::K     o:::::ooooo:::::onn:::::::::::::::ng::::::ggggg::::::ggzzzzzzzz::::::z                             
+  K:::::::::::K     o::::o     o::::o  n:::::nnnn:::::ng:::::g     g:::::g       z::::::z                              
+  K::::::K:::::K    o::::o     o::::o  n::::n    n::::ng:::::g     g:::::g      z::::::z                               
+  K:::::K K:::::K   o::::o     o::::o  n::::n    n::::ng:::::g     g:::::g     z::::::z                                
+KK::::::K  K:::::KKKo::::o     o::::o  n::::n    n::::ng::::::g    g:::::g    z::::::z                                 
+K:::::::K   K::::::Ko:::::ooooo:::::o  n::::n    n::::ng:::::::ggggg:::::g   z::::::zzzzzzzz                           
+K:::::::K    K:::::Ko:::::::::::::::o  n::::n    n::::n g::::::::::::::::g  z::::::::::::::z                           
+K:::::::K    K:::::K oo:::::::::::oo   n::::n    n::::n  gg::::::::::::::g z:::::::::::::::z                           
+KKKKKKKKK    KKKKKKK   ooooooooooo     nnnnnn    nnnnnn    gggggggg::::::g zzzzzzzzzzzzzzzzz                           
+                                                                   g:::::g                                             
+                                                       gggggg      g:::::g                                             
+                                                       g:::::gg   gg:::::g                                             
+                                                        g::::::ggg:::::::g                                             
+                                                         gg:::::::::::::g                                              
+                                                           ggg::::::ggg                                                
+                                                              gggggg                                                   
+                                                                                                                       
+                                                                                                                       
+                                             iiii  lllllll RRRRRRRRRRRRRRRRR                             tttt          
+                                            i::::i l:::::l R::::::::::::::::R                         ttt:::t          
+                                             iiii  l:::::l R::::::RRRRRR:::::R                        t:::::t          
+                                                   l:::::l RR:::::R     R:::::R                       t:::::t          
+    eeeeeeeeeeee  vvvvvvv           vvvvvvviiiiiii  l::::l   R::::R     R:::::R  aaaaaaaaaaaaa  ttttttt:::::ttttttt    
+  ee::::::::::::ee v:::::v         v:::::v i:::::i  l::::l   R::::R     R:::::R  a::::::::::::a t:::::::::::::::::t    
+ e::::::eeeee:::::eev:::::v       v:::::v   i::::i  l::::l   R::::RRRRRR:::::R   aaaaaaaaa:::::at:::::::::::::::::t    
+e::::::e     e:::::e v:::::v     v:::::v    i::::i  l::::l   R:::::::::::::RR             a::::atttttt:::::::tttttt    
+e:::::::eeeee::::::e  v:::::v   v:::::v     i::::i  l::::l   R::::RRRRRR:::::R     aaaaaaa:::::a      t:::::t          
+e:::::::::::::::::e    v:::::v v:::::v      i::::i  l::::l   R::::R     R:::::R  aa::::::::::::a      t:::::t          
+e::::::eeeeeeeeeee      v:::::v:::::v       i::::i  l::::l   R::::R     R:::::R a::::aaaa::::::a      t:::::t          
+e:::::::e                v:::::::::v        i::::i  l::::l   R::::R     R:::::Ra::::a    a:::::a      t:::::t    tttttt
+e::::::::e                v:::::::v        i::::::il::::::lRR:::::R     R:::::Ra::::a    a:::::a      t::::::tttt:::::t
+ e::::::::eeeeeeee         v:::::v         i::::::il::::::lR::::::R     R:::::Ra:::::aaaa::::::a      tt::::::::::::::t
+  ee:::::::::::::e          v:::v          i::::::il::::::lR::::::R     R:::::R a::::::::::aa:::a       tt:::::::::::tt
+    eeeeeeeeeeeeee           vvv           iiiiiiiillllllllRRRRRRRR     RRRRRRR  aaaaaaaaaa  aaaa         ttttttttttt  
+                                                                                                                       
+2020-03-23 16:18:34,661 - root - INFO - =====================上线SQL脚本文件生成工具=====================
+2020-03-23 16:18:45,367 - root - ERROR - sql类型没有匹配到：
+2020-03-23 16:19:43,239 - root - INFO - 
+                                                                                                                           
+                                                                                                                       
+KKKKKKKKK    KKKKKKK                                                                                                   
+K:::::::K    K:::::K                                                                                                   
+K:::::::K    K:::::K                                                                                                   
+K:::::::K   K::::::K                                                                                                   
+KK::::::K  K:::::KKK   ooooooooooo   nnnn  nnnnnnnn       ggggggggg   gggggzzzzzzzzzzzzzzzzz                           
+  K:::::K K:::::K    oo:::::::::::oo n:::nn::::::::nn    g:::::::::ggg::::gz:::::::::::::::z                           
+  K::::::K:::::K    o:::::::::::::::on::::::::::::::nn  g:::::::::::::::::gz::::::::::::::z                            
+  K:::::::::::K     o:::::ooooo:::::onn:::::::::::::::ng::::::ggggg::::::ggzzzzzzzz::::::z                             
+  K:::::::::::K     o::::o     o::::o  n:::::nnnn:::::ng:::::g     g:::::g       z::::::z                              
+  K::::::K:::::K    o::::o     o::::o  n::::n    n::::ng:::::g     g:::::g      z::::::z                               
+  K:::::K K:::::K   o::::o     o::::o  n::::n    n::::ng:::::g     g:::::g     z::::::z                                
+KK::::::K  K:::::KKKo::::o     o::::o  n::::n    n::::ng::::::g    g:::::g    z::::::z                                 
+K:::::::K   K::::::Ko:::::ooooo:::::o  n::::n    n::::ng:::::::ggggg:::::g   z::::::zzzzzzzz                           
+K:::::::K    K:::::Ko:::::::::::::::o  n::::n    n::::n g::::::::::::::::g  z::::::::::::::z                           
+K:::::::K    K:::::K oo:::::::::::oo   n::::n    n::::n  gg::::::::::::::g z:::::::::::::::z                           
+KKKKKKKKK    KKKKKKK   ooooooooooo     nnnnnn    nnnnnn    gggggggg::::::g zzzzzzzzzzzzzzzzz                           
+                                                                   g:::::g                                             
+                                                       gggggg      g:::::g                                             
+                                                       g:::::gg   gg:::::g                                             
+                                                        g::::::ggg:::::::g                                             
+                                                         gg:::::::::::::g                                              
+                                                           ggg::::::ggg                                                
+                                                              gggggg                                                   
+                                                                                                                       
+                                                                                                                       
+                                             iiii  lllllll RRRRRRRRRRRRRRRRR                             tttt          
+                                            i::::i l:::::l R::::::::::::::::R                         ttt:::t          
+                                             iiii  l:::::l R::::::RRRRRR:::::R                        t:::::t          
+                                                   l:::::l RR:::::R     R:::::R                       t:::::t          
+    eeeeeeeeeeee  vvvvvvv           vvvvvvviiiiiii  l::::l   R::::R     R:::::R  aaaaaaaaaaaaa  ttttttt:::::ttttttt    
+  ee::::::::::::ee v:::::v         v:::::v i:::::i  l::::l   R::::R     R:::::R  a::::::::::::a t:::::::::::::::::t    
+ e::::::eeeee:::::eev:::::v       v:::::v   i::::i  l::::l   R::::RRRRRR:::::R   aaaaaaaaa:::::at:::::::::::::::::t    
+e::::::e     e:::::e v:::::v     v:::::v    i::::i  l::::l   R:::::::::::::RR             a::::atttttt:::::::tttttt    
+e:::::::eeeee::::::e  v:::::v   v:::::v     i::::i  l::::l   R::::RRRRRR:::::R     aaaaaaa:::::a      t:::::t          
+e:::::::::::::::::e    v:::::v v:::::v      i::::i  l::::l   R::::R     R:::::R  aa::::::::::::a      t:::::t          
+e::::::eeeeeeeeeee      v:::::v:::::v       i::::i  l::::l   R::::R     R:::::R a::::aaaa::::::a      t:::::t          
+e:::::::e                v:::::::::v        i::::i  l::::l   R::::R     R:::::Ra::::a    a:::::a      t:::::t    tttttt
+e::::::::e                v:::::::v        i::::::il::::::lRR:::::R     R:::::Ra::::a    a:::::a      t::::::tttt:::::t
+ e::::::::eeeeeeee         v:::::v         i::::::il::::::lR::::::R     R:::::Ra:::::aaaa::::::a      tt::::::::::::::t
+  ee:::::::::::::e          v:::v          i::::::il::::::lR::::::R     R:::::R a::::::::::aa:::a       tt:::::::::::tt
+    eeeeeeeeeeeeee           vvv           iiiiiiiillllllllRRRRRRRR     RRRRRRR  aaaaaaaaaa  aaaa         ttttttttttt  
+                                                                                                                       
+2020-03-23 16:19:44,060 - root - INFO - =====================上线SQL脚本文件生成工具=====================
+2020-03-23 16:19:47,952 - root - ERROR - sql类型没有匹配到：
+2020-03-23 16:19:48,119 - root - INFO - sqlDict:
+2020-03-23 16:34:56,074 - root - INFO - 
+                                                                                                                           
+                                                                                                                       
+KKKKKKKKK    KKKKKKK                                                                                                   
+K:::::::K    K:::::K                                                                                                   
+K:::::::K    K:::::K                                                                                                   
+K:::::::K   K::::::K                                                                                                   
+KK::::::K  K:::::KKK   ooooooooooo   nnnn  nnnnnnnn       ggggggggg   gggggzzzzzzzzzzzzzzzzz                           
+  K:::::K K:::::K    oo:::::::::::oo n:::nn::::::::nn    g:::::::::ggg::::gz:::::::::::::::z                           
+  K::::::K:::::K    o:::::::::::::::on::::::::::::::nn  g:::::::::::::::::gz::::::::::::::z                            
+  K:::::::::::K     o:::::ooooo:::::onn:::::::::::::::ng::::::ggggg::::::ggzzzzzzzz::::::z                             
+  K:::::::::::K     o::::o     o::::o  n:::::nnnn:::::ng:::::g     g:::::g       z::::::z                              
+  K::::::K:::::K    o::::o     o::::o  n::::n    n::::ng:::::g     g:::::g      z::::::z                               
+  K:::::K K:::::K   o::::o     o::::o  n::::n    n::::ng:::::g     g:::::g     z::::::z                                
+KK::::::K  K:::::KKKo::::o     o::::o  n::::n    n::::ng::::::g    g:::::g    z::::::z                                 
+K:::::::K   K::::::Ko:::::ooooo:::::o  n::::n    n::::ng:::::::ggggg:::::g   z::::::zzzzzzzz                           
+K:::::::K    K:::::Ko:::::::::::::::o  n::::n    n::::n g::::::::::::::::g  z::::::::::::::z                           
+K:::::::K    K:::::K oo:::::::::::oo   n::::n    n::::n  gg::::::::::::::g z:::::::::::::::z                           
+KKKKKKKKK    KKKKKKK   ooooooooooo     nnnnnn    nnnnnn    gggggggg::::::g zzzzzzzzzzzzzzzzz                           
+                                                                   g:::::g                                             
+                                                       gggggg      g:::::g                                             
+                                                       g:::::gg   gg:::::g                                             
+                                                        g::::::ggg:::::::g                                             
+                                                         gg:::::::::::::g                                              
+                                                           ggg::::::ggg                                                
+                                                              gggggg                                                   
+                                                                                                                       
+                                                                                                                       
+                                             iiii  lllllll RRRRRRRRRRRRRRRRR                             tttt          
+                                            i::::i l:::::l R::::::::::::::::R                         ttt:::t          
+                                             iiii  l:::::l R::::::RRRRRR:::::R                        t:::::t          
+                                                   l:::::l RR:::::R     R:::::R                       t:::::t          
+    eeeeeeeeeeee  vvvvvvv           vvvvvvviiiiiii  l::::l   R::::R     R:::::R  aaaaaaaaaaaaa  ttttttt:::::ttttttt    
+  ee::::::::::::ee v:::::v         v:::::v i:::::i  l::::l   R::::R     R:::::R  a::::::::::::a t:::::::::::::::::t    
+ e::::::eeeee:::::eev:::::v       v:::::v   i::::i  l::::l   R::::RRRRRR:::::R   aaaaaaaaa:::::at:::::::::::::::::t    
+e::::::e     e:::::e v:::::v     v:::::v    i::::i  l::::l   R:::::::::::::RR             a::::atttttt:::::::tttttt    
+e:::::::eeeee::::::e  v:::::v   v:::::v     i::::i  l::::l   R::::RRRRRR:::::R     aaaaaaa:::::a      t:::::t          
+e:::::::::::::::::e    v:::::v v:::::v      i::::i  l::::l   R::::R     R:::::R  aa::::::::::::a      t:::::t          
+e::::::eeeeeeeeeee      v:::::v:::::v       i::::i  l::::l   R::::R     R:::::R a::::aaaa::::::a      t:::::t          
+e:::::::e                v:::::::::v        i::::i  l::::l   R::::R     R:::::Ra::::a    a:::::a      t:::::t    tttttt
+e::::::::e                v:::::::v        i::::::il::::::lRR:::::R     R:::::Ra::::a    a:::::a      t::::::tttt:::::t
+ e::::::::eeeeeeee         v:::::v         i::::::il::::::lR::::::R     R:::::Ra:::::aaaa::::::a      tt::::::::::::::t
+  ee:::::::::::::e          v:::v          i::::::il::::::lR::::::R     R:::::R a::::::::::aa:::a       tt:::::::::::tt
+    eeeeeeeeeeeeee           vvv           iiiiiiiillllllllRRRRRRRR     RRRRRRR  aaaaaaaaaa  aaaa         ttttttttttt  
+                                                                                                                       
+2020-03-23 16:34:56,982 - root - INFO - =====================上线SQL脚本文件生成工具=====================
+2020-03-23 16:35:03,294 - root - ERROR - sql类型没有匹配到：
+2020-03-23 16:35:03,525 - root - INFO - sqlDict:
+2020-03-23 16:40:18,653 - root - INFO - 
+                                                                                                                           
+                                                                                                                       
+KKKKKKKKK    KKKKKKK                                                                                                   
+K:::::::K    K:::::K                                                                                                   
+K:::::::K    K:::::K                                                                                                   
+K:::::::K   K::::::K                                                                                                   
+KK::::::K  K:::::KKK   ooooooooooo   nnnn  nnnnnnnn       ggggggggg   gggggzzzzzzzzzzzzzzzzz                           
+  K:::::K K:::::K    oo:::::::::::oo n:::nn::::::::nn    g:::::::::ggg::::gz:::::::::::::::z                           
+  K::::::K:::::K    o:::::::::::::::on::::::::::::::nn  g:::::::::::::::::gz::::::::::::::z                            
+  K:::::::::::K     o:::::ooooo:::::onn:::::::::::::::ng::::::ggggg::::::ggzzzzzzzz::::::z                             
+  K:::::::::::K     o::::o     o::::o  n:::::nnnn:::::ng:::::g     g:::::g       z::::::z                              
+  K::::::K:::::K    o::::o     o::::o  n::::n    n::::ng:::::g     g:::::g      z::::::z                               
+  K:::::K K:::::K   o::::o     o::::o  n::::n    n::::ng:::::g     g:::::g     z::::::z                                
+KK::::::K  K:::::KKKo::::o     o::::o  n::::n    n::::ng::::::g    g:::::g    z::::::z                                 
+K:::::::K   K::::::Ko:::::ooooo:::::o  n::::n    n::::ng:::::::ggggg:::::g   z::::::zzzzzzzz                           
+K:::::::K    K:::::Ko:::::::::::::::o  n::::n    n::::n g::::::::::::::::g  z::::::::::::::z                           
+K:::::::K    K:::::K oo:::::::::::oo   n::::n    n::::n  gg::::::::::::::g z:::::::::::::::z                           
+KKKKKKKKK    KKKKKKK   ooooooooooo     nnnnnn    nnnnnn    gggggggg::::::g zzzzzzzzzzzzzzzzz                           
+                                                                   g:::::g                                             
+                                                       gggggg      g:::::g                                             
+                                                       g:::::gg   gg:::::g                                             
+                                                        g::::::ggg:::::::g                                             
+                                                         gg:::::::::::::g                                              
+                                                           ggg::::::ggg                                                
+                                                              gggggg                                                   
+                                                                                                                       
+                                                                                                                       
+                                             iiii  lllllll RRRRRRRRRRRRRRRRR                             tttt          
+                                            i::::i l:::::l R::::::::::::::::R                         ttt:::t          
+                                             iiii  l:::::l R::::::RRRRRR:::::R                        t:::::t          
+                                                   l:::::l RR:::::R     R:::::R                       t:::::t          
+    eeeeeeeeeeee  vvvvvvv           vvvvvvviiiiiii  l::::l   R::::R     R:::::R  aaaaaaaaaaaaa  ttttttt:::::ttttttt    
+  ee::::::::::::ee v:::::v         v:::::v i:::::i  l::::l   R::::R     R:::::R  a::::::::::::a t:::::::::::::::::t    
+ e::::::eeeee:::::eev:::::v       v:::::v   i::::i  l::::l   R::::RRRRRR:::::R   aaaaaaaaa:::::at:::::::::::::::::t    
+e::::::e     e:::::e v:::::v     v:::::v    i::::i  l::::l   R:::::::::::::RR             a::::atttttt:::::::tttttt    
+e:::::::eeeee::::::e  v:::::v   v:::::v     i::::i  l::::l   R::::RRRRRR:::::R     aaaaaaa:::::a      t:::::t          
+e:::::::::::::::::e    v:::::v v:::::v      i::::i  l::::l   R::::R     R:::::R  aa::::::::::::a      t:::::t          
+e::::::eeeeeeeeeee      v:::::v:::::v       i::::i  l::::l   R::::R     R:::::R a::::aaaa::::::a      t:::::t          
+e:::::::e                v:::::::::v        i::::i  l::::l   R::::R     R:::::Ra::::a    a:::::a      t:::::t    tttttt
+e::::::::e                v:::::::v        i::::::il::::::lRR:::::R     R:::::Ra::::a    a:::::a      t::::::tttt:::::t
+ e::::::::eeeeeeee         v:::::v         i::::::il::::::lR::::::R     R:::::Ra:::::aaaa::::::a      tt::::::::::::::t
+  ee:::::::::::::e          v:::v          i::::::il::::::lR::::::R     R:::::R a::::::::::aa:::a       tt:::::::::::tt
+    eeeeeeeeeeeeee           vvv           iiiiiiiillllllllRRRRRRRR     RRRRRRR  aaaaaaaaaa  aaaa         ttttttttttt  
+                                                                                                                       
+2020-03-23 16:40:18,949 - root - INFO - =====================上线SQL脚本文件生成工具=====================
+2020-03-23 16:41:59,970 - root - INFO - 
+                                                                                                                           
+                                                                                                                       
+KKKKKKKKK    KKKKKKK                                                                                                   
+K:::::::K    K:::::K                                                                                                   
+K:::::::K    K:::::K                                                                                                   
+K:::::::K   K::::::K                                                                                                   
+KK::::::K  K:::::KKK   ooooooooooo   nnnn  nnnnnnnn       ggggggggg   gggggzzzzzzzzzzzzzzzzz                           
+  K:::::K K:::::K    oo:::::::::::oo n:::nn::::::::nn    g:::::::::ggg::::gz:::::::::::::::z                           
+  K::::::K:::::K    o:::::::::::::::on::::::::::::::nn  g:::::::::::::::::gz::::::::::::::z                            
+  K:::::::::::K     o:::::ooooo:::::onn:::::::::::::::ng::::::ggggg::::::ggzzzzzzzz::::::z                             
+  K:::::::::::K     o::::o     o::::o  n:::::nnnn:::::ng:::::g     g:::::g       z::::::z                              
+  K::::::K:::::K    o::::o     o::::o  n::::n    n::::ng:::::g     g:::::g      z::::::z                               
+  K:::::K K:::::K   o::::o     o::::o  n::::n    n::::ng:::::g     g:::::g     z::::::z                                
+KK::::::K  K:::::KKKo::::o     o::::o  n::::n    n::::ng::::::g    g:::::g    z::::::z                                 
+K:::::::K   K::::::Ko:::::ooooo:::::o  n::::n    n::::ng:::::::ggggg:::::g   z::::::zzzzzzzz                           
+K:::::::K    K:::::Ko:::::::::::::::o  n::::n    n::::n g::::::::::::::::g  z::::::::::::::z                           
+K:::::::K    K:::::K oo:::::::::::oo   n::::n    n::::n  gg::::::::::::::g z:::::::::::::::z                           
+KKKKKKKKK    KKKKKKK   ooooooooooo     nnnnnn    nnnnnn    gggggggg::::::g zzzzzzzzzzzzzzzzz                           
+                                                                   g:::::g                                             
+                                                       gggggg      g:::::g                                             
+                                                       g:::::gg   gg:::::g                                             
+                                                        g::::::ggg:::::::g                                             
+                                                         gg:::::::::::::g                                              
+                                                           ggg::::::ggg                                                
+                                                              gggggg                                                   
+                                                                                                                       
+                                                                                                                       
+                                             iiii  lllllll RRRRRRRRRRRRRRRRR                             tttt          
+                                            i::::i l:::::l R::::::::::::::::R                         ttt:::t          
+                                             iiii  l:::::l R::::::RRRRRR:::::R                        t:::::t          
+                                                   l:::::l RR:::::R     R:::::R                       t:::::t          
+    eeeeeeeeeeee  vvvvvvv           vvvvvvviiiiiii  l::::l   R::::R     R:::::R  aaaaaaaaaaaaa  ttttttt:::::ttttttt    
+  ee::::::::::::ee v:::::v         v:::::v i:::::i  l::::l   R::::R     R:::::R  a::::::::::::a t:::::::::::::::::t    
+ e::::::eeeee:::::eev:::::v       v:::::v   i::::i  l::::l   R::::RRRRRR:::::R   aaaaaaaaa:::::at:::::::::::::::::t    
+e::::::e     e:::::e v:::::v     v:::::v    i::::i  l::::l   R:::::::::::::RR             a::::atttttt:::::::tttttt    
+e:::::::eeeee::::::e  v:::::v   v:::::v     i::::i  l::::l   R::::RRRRRR:::::R     aaaaaaa:::::a      t:::::t          
+e:::::::::::::::::e    v:::::v v:::::v      i::::i  l::::l   R::::R     R:::::R  aa::::::::::::a      t:::::t          
+e::::::eeeeeeeeeee      v:::::v:::::v       i::::i  l::::l   R::::R     R:::::R a::::aaaa::::::a      t:::::t          
+e:::::::e                v:::::::::v        i::::i  l::::l   R::::R     R:::::Ra::::a    a:::::a      t:::::t    tttttt
+e::::::::e                v:::::::v        i::::::il::::::lRR:::::R     R:::::Ra::::a    a:::::a      t::::::tttt:::::t
+ e::::::::eeeeeeee         v:::::v         i::::::il::::::lR::::::R     R:::::Ra:::::aaaa::::::a      tt::::::::::::::t
+  ee:::::::::::::e          v:::v          i::::::il::::::lR::::::R     R:::::R a::::::::::aa:::a       tt:::::::::::tt
+    eeeeeeeeeeeeee           vvv           iiiiiiiillllllllRRRRRRRR     RRRRRRR  aaaaaaaaaa  aaaa         ttttttttttt  
+                                                                                                                       
+2020-03-23 16:42:00,265 - root - INFO - =====================上线SQL脚本文件生成工具=====================
+2020-03-23 16:42:04,386 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (1, 'USER_ID', 'userId', '')
+2020-03-23 16:42:04,429 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (2, 'RETINFO', 'retinfo', '')
+2020-03-23 16:42:04,487 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (3, 'OFFER_LIST', 'offerList', '')
+2020-03-23 16:42:04,653 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (4, 'OFFER_INFO', 'offerInfo', '')
+2020-03-23 16:42:04,776 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (5, 'OFFER_ID', 'offerId', '')
+2020-03-23 16:42:04,899 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (6, 'OFFER_NAME', 'offerName', '')
+2020-03-23 16:42:04,999 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (7, 'UP_OFFER_ID', 'upOfferId', '')
+2020-03-23 16:42:05,103 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (8, 'UP_OFFER_NAME', 'upOfferName', '')
+2020-03-23 16:42:05,152 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (9, 'IS_PACKAGE', 'isPackage', '')
+2020-03-23 16:42:05,199 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (10, 'SP_CODE', 'spCode', '')
+2020-03-23 16:42:05,227 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (11, 'BIZ_CODE', 'bizCode', '')
+2020-03-23 16:42:05,281 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (12, 'SP_NAME', 'spName', '')
+2020-03-23 16:42:05,387 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (13, 'BILL_TYPE', 'billType', '')
+2020-03-23 16:42:05,412 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (14, 'OFFER_PRICE', 'offerPrice', '')
+2020-03-23 16:42:05,463 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (15, 'STATUS', 'status', '')
+2020-03-23 16:42:05,562 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (16, 'ORDER_TIME', 'orderTime', '')
+2020-03-23 16:42:05,659 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (17, 'OFFER_DESC', 'offerDesc', '')
+2020-03-23 16:42:05,787 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (18, 'OFFER_TYPE', 'offerType', '')
+2020-03-23 16:42:05,819 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (19, 'OFFER_TYPE_NAME', 'offerTypeName', '')
+2020-03-23 16:42:05,924 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (20, 'BRAND_ID', 'brandId', '')
+2020-03-23 16:42:06,028 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (21, 'BRAND_NAME', 'brandName', '')
+2020-03-23 16:42:06,130 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (22, 'IS_MAIN', 'isMain', '')
+2020-03-23 16:42:06,232 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (23, 'CHOOSE_TAG', 'chooseTag', '')
+2020-03-23 16:42:06,364 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (24, 'CAN_UN_SUB', 'canUnSub', '')
+2020-03-23 16:42:06,456 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (25, 'EFF_TIME', 'effTime', '')
+2020-03-23 16:42:06,459 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (26, 'EXP_TIME', 'exp_time', '')
+2020-03-23 16:42:06,461 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (27, 'OFFER_ATTR_LIST', 'offerAttrList', '')
+2020-03-23 16:42:06,464 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (28, 'OFFER_ATTR', 'offerAttr', '')
+2020-03-23 16:42:06,492 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (29, 'ATTR_ID', 'attrId', '')
+2020-03-23 16:42:06,532 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (30, 'ATTR_NAME', 'attrName', '')
+2020-03-23 16:42:06,573 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (31, 'ATTR_DESC', 'attrDesc', '')
+2020-03-23 16:42:06,730 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (32, 'ATTR_VALUE', 'attrValue', '')
+2020-03-23 16:42:06,758 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (33, 'ATTR_VALUE_DESC', 'attrValueDesc', '')
+2020-03-23 16:42:06,814 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (34, 'ORDER_STAFF_ID', 'orderStaffId', '')
+2020-03-23 16:42:06,940 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (35, 'ORDER_CHNN', 'orderChnn', '')
+2020-03-23 16:42:07,042 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (36, 'REMARK', 'remark', '')
+2020-03-23 16:42:07,148 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (37, 'STARTORDERTIME', 'startordertime', '')
+2020-03-23 16:42:07,254 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (38, 'CLOSEORDERTIME', 'closeordertime', '')
+2020-03-23 16:42:07,364 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (39, 'BIZNAME', 'bizname', '')
+2020-03-23 16:42:07,391 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (40, 'SPTYPE', 'sptype', '')
+2020-03-23 16:42:07,522 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (41, 'ORDER_DEP', 'orderDep', '')
+2020-03-23 16:42:07,625 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (42, 'SHORT_NUM', 'shortNum', '')
+2020-03-23 16:42:07,728 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (43, 'ERRORINFO', 'errorinfo', '')
+2020-03-23 16:42:07,833 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (44, 'CODE', 'code', '')
+2020-03-23 16:42:07,944 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (45, 'MESSAGE', 'message', '')
+2020-03-23 16:42:08,045 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (46, 'BUSI_SERIAL_NO', 'busiSerialNo', '')
+2020-03-23 16:42:08,148 - root - ERROR - sql类型没有匹配到：
+update
+    city_code_data
+set
+    city_code = concat('0', city_code)
+where
+    id > 0
+2020-03-23 16:42:08,274 - root - ERROR - sql类型没有匹配到：
+2020-03-23 16:42:08,299 - root - INFO - sqlDict:
+2020-03-23 16:45:39,046 - root - INFO - 
+                                                                                                                           
+                                                                                                                       
+KKKKKKKKK    KKKKKKK                                                                                                   
+K:::::::K    K:::::K                                                                                                   
+K:::::::K    K:::::K                                                                                                   
+K:::::::K   K::::::K                                                                                                   
+KK::::::K  K:::::KKK   ooooooooooo   nnnn  nnnnnnnn       ggggggggg   gggggzzzzzzzzzzzzzzzzz                           
+  K:::::K K:::::K    oo:::::::::::oo n:::nn::::::::nn    g:::::::::ggg::::gz:::::::::::::::z                           
+  K::::::K:::::K    o:::::::::::::::on::::::::::::::nn  g:::::::::::::::::gz::::::::::::::z                            
+  K:::::::::::K     o:::::ooooo:::::onn:::::::::::::::ng::::::ggggg::::::ggzzzzzzzz::::::z                             
+  K:::::::::::K     o::::o     o::::o  n:::::nnnn:::::ng:::::g     g:::::g       z::::::z                              
+  K::::::K:::::K    o::::o     o::::o  n::::n    n::::ng:::::g     g:::::g      z::::::z                               
+  K:::::K K:::::K   o::::o     o::::o  n::::n    n::::ng:::::g     g:::::g     z::::::z                                
+KK::::::K  K:::::KKKo::::o     o::::o  n::::n    n::::ng::::::g    g:::::g    z::::::z                                 
+K:::::::K   K::::::Ko:::::ooooo:::::o  n::::n    n::::ng:::::::ggggg:::::g   z::::::zzzzzzzz                           
+K:::::::K    K:::::Ko:::::::::::::::o  n::::n    n::::n g::::::::::::::::g  z::::::::::::::z                           
+K:::::::K    K:::::K oo:::::::::::oo   n::::n    n::::n  gg::::::::::::::g z:::::::::::::::z                           
+KKKKKKKKK    KKKKKKK   ooooooooooo     nnnnnn    nnnnnn    gggggggg::::::g zzzzzzzzzzzzzzzzz                           
+                                                                   g:::::g                                             
+                                                       gggggg      g:::::g                                             
+                                                       g:::::gg   gg:::::g                                             
+                                                        g::::::ggg:::::::g                                             
+                                                         gg:::::::::::::g                                              
+                                                           ggg::::::ggg                                                
+                                                              gggggg                                                   
+                                                                                                                       
+                                                                                                                       
+                                             iiii  lllllll RRRRRRRRRRRRRRRRR                             tttt          
+                                            i::::i l:::::l R::::::::::::::::R                         ttt:::t          
+                                             iiii  l:::::l R::::::RRRRRR:::::R                        t:::::t          
+                                                   l:::::l RR:::::R     R:::::R                       t:::::t          
+    eeeeeeeeeeee  vvvvvvv           vvvvvvviiiiiii  l::::l   R::::R     R:::::R  aaaaaaaaaaaaa  ttttttt:::::ttttttt    
+  ee::::::::::::ee v:::::v         v:::::v i:::::i  l::::l   R::::R     R:::::R  a::::::::::::a t:::::::::::::::::t    
+ e::::::eeeee:::::eev:::::v       v:::::v   i::::i  l::::l   R::::RRRRRR:::::R   aaaaaaaaa:::::at:::::::::::::::::t    
+e::::::e     e:::::e v:::::v     v:::::v    i::::i  l::::l   R:::::::::::::RR             a::::atttttt:::::::tttttt    
+e:::::::eeeee::::::e  v:::::v   v:::::v     i::::i  l::::l   R::::RRRRRR:::::R     aaaaaaa:::::a      t:::::t          
+e:::::::::::::::::e    v:::::v v:::::v      i::::i  l::::l   R::::R     R:::::R  aa::::::::::::a      t:::::t          
+e::::::eeeeeeeeeee      v:::::v:::::v       i::::i  l::::l   R::::R     R:::::R a::::aaaa::::::a      t:::::t          
+e:::::::e                v:::::::::v        i::::i  l::::l   R::::R     R:::::Ra::::a    a:::::a      t:::::t    tttttt
+e::::::::e                v:::::::v        i::::::il::::::lRR:::::R     R:::::Ra::::a    a:::::a      t::::::tttt:::::t
+ e::::::::eeeeeeee         v:::::v         i::::::il::::::lR::::::R     R:::::Ra:::::aaaa::::::a      tt::::::::::::::t
+  ee:::::::::::::e          v:::v          i::::::il::::::lR::::::R     R:::::R a::::::::::aa:::a       tt:::::::::::tt
+    eeeeeeeeeeeeee           vvv           iiiiiiiillllllllRRRRRRRR     RRRRRRR  aaaaaaaaaa  aaaa         ttttttttttt  
+                                                                                                                       
+2020-03-23 16:45:39,252 - root - INFO - =====================上线SQL脚本文件生成工具=====================
+2020-03-23 16:45:42,671 - root - INFO - 当前处理的sql：CREATE TABLE `znyd_h5onelgn_info` (
+    `msisdn` varchar(20) NOT NULL COMMENT '加密后的手机号',
+    `passid` varchar(64) NOT NULL COMMENT '用户统一账号的系统标识',
+    `msisdnmask` varchar(20) NOT NULL COMMENT '手机号码掩码',
+    `createTime` datetime DEFAULT NULL COMMENT '创建时间',
+    `field1` varchar(60) DEFAULT NULL COMMENT '最近修改人',
+    `field2` varchar(0) DEFAULT NULL COMMENT '最近修改时间',
+    `billId` varchar(255) NOT NULL COMMENT '手机号码',
+    PRIMARY KEY (`billId`)
+)
+2020-03-23 16:45:42,704 - root - INFO - 当前处理的sql：CREATE TABLE `znyd_h5login_info` (
+    `rowId` int(11) NOT NULL AUTO_INCREMENT COMMENT '主键id',
+    `businessKey` varchar(64) DEFAULT NULL COMMENT '业务主键',
+    `billId` varchar(60) DEFAULT NULL COMMENT '手机号',
+    `loginTime` datetime DEFAULT NULL COMMENT '登录时间',
+    `loginMode` char(2) NOT NULL COMMENT '登录方式:0短信登录,1一键登录',
+    `accessChannels` varchar(60) NOT NULL COMMENT '登录渠道 用来区分短信、互联网等渠道',
+    `field1` varchar(60) DEFAULT NULL COMMENT '备用字段1',
+    `field2` varchar(255) DEFAULT NULL COMMENT '备用字段',
+    PRIMARY KEY (`rowId`)
+)
+2020-03-23 16:45:42,737 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (1, 'USER_ID', 'userId', '')
+2020-03-23 16:45:42,803 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (1, 'USER_ID', 'userId', '')
+2020-03-23 16:45:42,805 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (2, 'RETINFO', 'retinfo', '')
+2020-03-23 16:45:42,829 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (2, 'RETINFO', 'retinfo', '')
+2020-03-23 16:45:42,831 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (3, 'OFFER_LIST', 'offerList', '')
+2020-03-23 16:45:42,833 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (3, 'OFFER_LIST', 'offerList', '')
+2020-03-23 16:45:42,837 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (4, 'OFFER_INFO', 'offerInfo', '')
+2020-03-23 16:45:42,841 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (4, 'OFFER_INFO', 'offerInfo', '')
+2020-03-23 16:45:42,856 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (5, 'OFFER_ID', 'offerId', '')
+2020-03-23 16:45:42,928 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (5, 'OFFER_ID', 'offerId', '')
+2020-03-23 16:45:42,930 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (6, 'OFFER_NAME', 'offerName', '')
+2020-03-23 16:45:42,991 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (6, 'OFFER_NAME', 'offerName', '')
+2020-03-23 16:45:43,084 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (7, 'UP_OFFER_ID', 'upOfferId', '')
+2020-03-23 16:45:43,089 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (7, 'UP_OFFER_ID', 'upOfferId', '')
+2020-03-23 16:45:43,107 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (8, 'UP_OFFER_NAME', 'upOfferName', '')
+2020-03-23 16:45:43,160 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (8, 'UP_OFFER_NAME', 'upOfferName', '')
+2020-03-23 16:45:43,162 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (9, 'IS_PACKAGE', 'isPackage', '')
+2020-03-23 16:45:43,165 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (9, 'IS_PACKAGE', 'isPackage', '')
+2020-03-23 16:45:43,170 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (10, 'SP_CODE', 'spCode', '')
+2020-03-23 16:45:43,172 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (10, 'SP_CODE', 'spCode', '')
+2020-03-23 16:45:43,189 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (11, 'BIZ_CODE', 'bizCode', '')
+2020-03-23 16:45:43,228 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (11, 'BIZ_CODE', 'bizCode', '')
+2020-03-23 16:45:43,230 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (12, 'SP_NAME', 'spName', '')
+2020-03-23 16:45:43,235 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (12, 'SP_NAME', 'spName', '')
+2020-03-23 16:45:43,237 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (13, 'BILL_TYPE', 'billType', '')
+2020-03-23 16:45:43,239 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (13, 'BILL_TYPE', 'billType', '')
+2020-03-23 16:45:43,256 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (14, 'OFFER_PRICE', 'offerPrice', '')
+2020-03-23 16:45:43,274 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (14, 'OFFER_PRICE', 'offerPrice', '')
+2020-03-23 16:45:43,330 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (15, 'STATUS', 'status', '')
+2020-03-23 16:45:43,332 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (15, 'STATUS', 'status', '')
+2020-03-23 16:45:43,335 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (16, 'ORDER_TIME', 'orderTime', '')
+2020-03-23 16:45:43,339 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (16, 'ORDER_TIME', 'orderTime', '')
+2020-03-23 16:45:43,409 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (17, 'OFFER_DESC', 'offerDesc', '')
+2020-03-23 16:45:43,420 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (17, 'OFFER_DESC', 'offerDesc', '')
+2020-03-23 16:45:43,422 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (18, 'OFFER_TYPE', 'offerType', '')
+2020-03-23 16:45:43,438 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (18, 'OFFER_TYPE', 'offerType', '')
+2020-03-23 16:45:43,494 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (19, 'OFFER_TYPE_NAME', 'offerTypeName', '')
+2020-03-23 16:45:43,515 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (19, 'OFFER_TYPE_NAME', 'offerTypeName', '')
+2020-03-23 16:45:43,517 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (20, 'BRAND_ID', 'brandId', '')
+2020-03-23 16:45:43,521 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (20, 'BRAND_ID', 'brandId', '')
+2020-03-23 16:45:43,538 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (21, 'BRAND_NAME', 'brandName', '')
+2020-03-23 16:45:43,576 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (21, 'BRAND_NAME', 'brandName', '')
+2020-03-23 16:45:43,578 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (22, 'IS_MAIN', 'isMain', '')
+2020-03-23 16:45:43,581 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (22, 'IS_MAIN', 'isMain', '')
+2020-03-23 16:45:43,585 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (23, 'CHOOSE_TAG', 'chooseTag', '')
+2020-03-23 16:45:43,587 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (23, 'CHOOSE_TAG', 'chooseTag', '')
+2020-03-23 16:45:43,588 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (24, 'CAN_UN_SUB', 'canUnSub', '')
+2020-03-23 16:45:43,605 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (24, 'CAN_UN_SUB', 'canUnSub', '')
+2020-03-23 16:45:43,643 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (25, 'EFF_TIME', 'effTime', '')
+2020-03-23 16:45:43,644 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (25, 'EFF_TIME', 'effTime', '')
+2020-03-23 16:45:43,648 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (26, 'EXP_TIME', 'exp_time', '')
+2020-03-23 16:45:43,652 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (26, 'EXP_TIME', 'exp_time', '')
+2020-03-23 16:45:43,654 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (27, 'OFFER_ATTR_LIST', 'offerAttrList', '')
+2020-03-23 16:45:43,656 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (27, 'OFFER_ATTR_LIST', 'offerAttrList', '')
+2020-03-23 16:45:43,671 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (28, 'OFFER_ATTR', 'offerAttr', '')
+2020-03-23 16:45:43,693 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (28, 'OFFER_ATTR', 'offerAttr', '')
+2020-03-23 16:45:43,695 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (29, 'ATTR_ID', 'attrId', '')
+2020-03-23 16:45:43,717 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (29, 'ATTR_ID', 'attrId', '')
+2020-03-23 16:45:43,756 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (30, 'ATTR_NAME', 'attrName', '')
+2020-03-23 16:45:43,773 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (30, 'ATTR_NAME', 'attrName', '')
+2020-03-23 16:45:43,833 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (31, 'ATTR_DESC', 'attrDesc', '')
+2020-03-23 16:45:43,835 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (31, 'ATTR_DESC', 'attrDesc', '')
+2020-03-23 16:45:43,838 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (32, 'ATTR_VALUE', 'attrValue', '')
+2020-03-23 16:45:43,855 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (32, 'ATTR_VALUE', 'attrValue', '')
+2020-03-23 16:45:43,903 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (33, 'ATTR_VALUE_DESC', 'attrValueDesc', '')
+2020-03-23 16:45:43,909 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (33, 'ATTR_VALUE_DESC', 'attrValueDesc', '')
+2020-03-23 16:45:43,928 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (34, 'ORDER_STAFF_ID', 'orderStaffId', '')
+2020-03-23 16:45:43,930 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (34, 'ORDER_STAFF_ID', 'orderStaffId', '')
+2020-03-23 16:45:43,934 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (35, 'ORDER_CHNN', 'orderChnn', '')
+2020-03-23 16:45:43,937 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (35, 'ORDER_CHNN', 'orderChnn', '')
+2020-03-23 16:45:43,939 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (36, 'REMARK', 'remark', '')
+2020-03-23 16:45:43,954 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (36, 'REMARK', 'remark', '')
+2020-03-23 16:45:43,957 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (37, 'STARTORDERTIME', 'startordertime', '')
+2020-03-23 16:45:43,974 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (37, 'STARTORDERTIME', 'startordertime', '')
+2020-03-23 16:45:43,994 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (38, 'CLOSEORDERTIME', 'closeordertime', '')
+2020-03-23 16:45:43,996 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (38, 'CLOSEORDERTIME', 'closeordertime', '')
+2020-03-23 16:45:44,002 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (39, 'BIZNAME', 'bizname', '')
+2020-03-23 16:45:44,004 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (39, 'BIZNAME', 'bizname', '')
+2020-03-23 16:45:44,006 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (40, 'SPTYPE', 'sptype', '')
+2020-03-23 16:45:44,021 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (40, 'SPTYPE', 'sptype', '')
+2020-03-23 16:45:44,060 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (41, 'ORDER_DEP', 'orderDep', '')
+2020-03-23 16:45:44,062 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (41, 'ORDER_DEP', 'orderDep', '')
+2020-03-23 16:45:44,143 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (42, 'SHORT_NUM', 'shortNum', '')
+2020-03-23 16:45:44,164 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (42, 'SHORT_NUM', 'shortNum', '')
+2020-03-23 16:45:44,166 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (43, 'ERRORINFO', 'errorinfo', '')
+2020-03-23 16:45:44,169 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (43, 'ERRORINFO', 'errorinfo', '')
+2020-03-23 16:45:44,172 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (44, 'CODE', 'code', '')
+2020-03-23 16:45:44,214 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (44, 'CODE', 'code', '')
+2020-03-23 16:45:44,216 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (45, 'MESSAGE', 'message', '')
+2020-03-23 16:45:44,221 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (45, 'MESSAGE', 'message', '')
+2020-03-23 16:45:44,242 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (46, 'BUSI_SERIAL_NO', 'busiSerialNo', '')
+2020-03-23 16:45:44,244 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (46, 'BUSI_SERIAL_NO', 'busiSerialNo', '')
+2020-03-23 16:45:44,249 - root - INFO - 当前处理的sql：
+update
+    city_code_data
+set
+    city_code = concat('0', city_code)
+where
+    id > 0
+2020-03-23 16:45:44,251 - root - ERROR - sql类型没有匹配到：
+update
+    city_code_data
+set
+    city_code = concat('0', city_code)
+where
+    id > 0
+2020-03-23 16:45:44,253 - root - INFO - 当前处理的sql：
+2020-03-23 16:45:44,253 - root - ERROR - sql类型没有匹配到：
+2020-03-23 16:45:44,254 - root - INFO - sqlDict:
+2020-03-23 16:49:04,501 - root - INFO - 
+                                                                                                                           
+                                                                                                                       
+KKKKKKKKK    KKKKKKK                                                                                                   
+K:::::::K    K:::::K                                                                                                   
+K:::::::K    K:::::K                                                                                                   
+K:::::::K   K::::::K                                                                                                   
+KK::::::K  K:::::KKK   ooooooooooo   nnnn  nnnnnnnn       ggggggggg   gggggzzzzzzzzzzzzzzzzz                           
+  K:::::K K:::::K    oo:::::::::::oo n:::nn::::::::nn    g:::::::::ggg::::gz:::::::::::::::z                           
+  K::::::K:::::K    o:::::::::::::::on::::::::::::::nn  g:::::::::::::::::gz::::::::::::::z                            
+  K:::::::::::K     o:::::ooooo:::::onn:::::::::::::::ng::::::ggggg::::::ggzzzzzzzz::::::z                             
+  K:::::::::::K     o::::o     o::::o  n:::::nnnn:::::ng:::::g     g:::::g       z::::::z                              
+  K::::::K:::::K    o::::o     o::::o  n::::n    n::::ng:::::g     g:::::g      z::::::z                               
+  K:::::K K:::::K   o::::o     o::::o  n::::n    n::::ng:::::g     g:::::g     z::::::z                                
+KK::::::K  K:::::KKKo::::o     o::::o  n::::n    n::::ng::::::g    g:::::g    z::::::z                                 
+K:::::::K   K::::::Ko:::::ooooo:::::o  n::::n    n::::ng:::::::ggggg:::::g   z::::::zzzzzzzz                           
+K:::::::K    K:::::Ko:::::::::::::::o  n::::n    n::::n g::::::::::::::::g  z::::::::::::::z                           
+K:::::::K    K:::::K oo:::::::::::oo   n::::n    n::::n  gg::::::::::::::g z:::::::::::::::z                           
+KKKKKKKKK    KKKKKKK   ooooooooooo     nnnnnn    nnnnnn    gggggggg::::::g zzzzzzzzzzzzzzzzz                           
+                                                                   g:::::g                                             
+                                                       gggggg      g:::::g                                             
+                                                       g:::::gg   gg:::::g                                             
+                                                        g::::::ggg:::::::g                                             
+                                                         gg:::::::::::::g                                              
+                                                           ggg::::::ggg                                                
+                                                              gggggg                                                   
+                                                                                                                       
+                                                                                                                       
+                                             iiii  lllllll RRRRRRRRRRRRRRRRR                             tttt          
+                                            i::::i l:::::l R::::::::::::::::R                         ttt:::t          
+                                             iiii  l:::::l R::::::RRRRRR:::::R                        t:::::t          
+                                                   l:::::l RR:::::R     R:::::R                       t:::::t          
+    eeeeeeeeeeee  vvvvvvv           vvvvvvviiiiiii  l::::l   R::::R     R:::::R  aaaaaaaaaaaaa  ttttttt:::::ttttttt    
+  ee::::::::::::ee v:::::v         v:::::v i:::::i  l::::l   R::::R     R:::::R  a::::::::::::a t:::::::::::::::::t    
+ e::::::eeeee:::::eev:::::v       v:::::v   i::::i  l::::l   R::::RRRRRR:::::R   aaaaaaaaa:::::at:::::::::::::::::t    
+e::::::e     e:::::e v:::::v     v:::::v    i::::i  l::::l   R:::::::::::::RR             a::::atttttt:::::::tttttt    
+e:::::::eeeee::::::e  v:::::v   v:::::v     i::::i  l::::l   R::::RRRRRR:::::R     aaaaaaa:::::a      t:::::t          
+e:::::::::::::::::e    v:::::v v:::::v      i::::i  l::::l   R::::R     R:::::R  aa::::::::::::a      t:::::t          
+e::::::eeeeeeeeeee      v:::::v:::::v       i::::i  l::::l   R::::R     R:::::R a::::aaaa::::::a      t:::::t          
+e:::::::e                v:::::::::v        i::::i  l::::l   R::::R     R:::::Ra::::a    a:::::a      t:::::t    tttttt
+e::::::::e                v:::::::v        i::::::il::::::lRR:::::R     R:::::Ra::::a    a:::::a      t::::::tttt:::::t
+ e::::::::eeeeeeee         v:::::v         i::::::il::::::lR::::::R     R:::::Ra:::::aaaa::::::a      tt::::::::::::::t
+  ee:::::::::::::e          v:::v          i::::::il::::::lR::::::R     R:::::R a::::::::::aa:::a       tt:::::::::::tt
+    eeeeeeeeeeeeee           vvv           iiiiiiiillllllllRRRRRRRR     RRRRRRR  aaaaaaaaaa  aaaa         ttttttttttt  
+                                                                                                                       
+2020-03-23 16:49:04,579 - root - INFO - =====================上线SQL脚本文件生成工具=====================
+2020-03-23 16:49:30,970 - root - INFO - 当前处理的sql：CREATE TABLE `znyd_h5onelgn_info` (
+    `msisdn` varchar(20) NOT NULL COMMENT '加密后的手机号',
+    `passid` varchar(64) NOT NULL COMMENT '用户统一账号的系统标识',
+    `msisdnmask` varchar(20) NOT NULL COMMENT '手机号码掩码',
+    `createTime` datetime DEFAULT NULL COMMENT '创建时间',
+    `field1` varchar(60) DEFAULT NULL COMMENT '最近修改人',
+    `field2` varchar(0) DEFAULT NULL COMMENT '最近修改时间',
+    `billId` varchar(255) NOT NULL COMMENT '手机号码',
+    PRIMARY KEY (`billId`)
+)
+2020-03-23 16:49:54,791 - root - INFO - 当前处理的sql：CREATE TABLE `znyd_h5login_info` (
+    `rowId` int(11) NOT NULL AUTO_INCREMENT COMMENT '主键id',
+    `businessKey` varchar(64) DEFAULT NULL COMMENT '业务主键',
+    `billId` varchar(60) DEFAULT NULL COMMENT '手机号',
+    `loginTime` datetime DEFAULT NULL COMMENT '登录时间',
+    `loginMode` char(2) NOT NULL COMMENT '登录方式:0短信登录,1一键登录',
+    `accessChannels` varchar(60) NOT NULL COMMENT '登录渠道 用来区分短信、互联网等渠道',
+    `field1` varchar(60) DEFAULT NULL COMMENT '备用字段1',
+    `field2` varchar(255) DEFAULT NULL COMMENT '备用字段',
+    PRIMARY KEY (`rowId`)
+)
+2020-03-23 16:50:46,842 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (1, 'USER_ID', 'userId', '')
+2020-03-23 16:50:57,769 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (1, 'USER_ID', 'userId', '')
+2020-03-23 16:50:59,716 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (2, 'RETINFO', 'retinfo', '')
+2020-03-23 16:50:59,726 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (2, 'RETINFO', 'retinfo', '')
+2020-03-23 16:51:01,211 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (3, 'OFFER_LIST', 'offerList', '')
+2020-03-23 16:51:01,347 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (3, 'OFFER_LIST', 'offerList', '')
+2020-03-23 16:51:02,098 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (4, 'OFFER_INFO', 'offerInfo', '')
+2020-03-23 16:51:02,135 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (4, 'OFFER_INFO', 'offerInfo', '')
+2020-03-23 16:51:02,648 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (5, 'OFFER_ID', 'offerId', '')
+2020-03-23 16:51:02,660 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (5, 'OFFER_ID', 'offerId', '')
+2020-03-23 16:51:02,969 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (6, 'OFFER_NAME', 'offerName', '')
+2020-03-23 16:51:02,980 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (6, 'OFFER_NAME', 'offerName', '')
+2020-03-23 16:51:03,363 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (7, 'UP_OFFER_ID', 'upOfferId', '')
+2020-03-23 16:51:03,372 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (7, 'UP_OFFER_ID', 'upOfferId', '')
+2020-03-23 16:51:05,967 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (8, 'UP_OFFER_NAME', 'upOfferName', '')
+2020-03-23 16:51:05,974 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (8, 'UP_OFFER_NAME', 'upOfferName', '')
+2020-03-23 16:51:05,976 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (9, 'IS_PACKAGE', 'isPackage', '')
+2020-03-23 16:51:05,978 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (9, 'IS_PACKAGE', 'isPackage', '')
+2020-03-23 16:51:05,980 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (10, 'SP_CODE', 'spCode', '')
+2020-03-23 16:51:06,119 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (10, 'SP_CODE', 'spCode', '')
+2020-03-23 16:51:06,122 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (11, 'BIZ_CODE', 'bizCode', '')
+2020-03-23 16:51:06,124 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (11, 'BIZ_CODE', 'bizCode', '')
+2020-03-23 16:51:06,126 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (12, 'SP_NAME', 'spName', '')
+2020-03-23 16:51:06,128 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (12, 'SP_NAME', 'spName', '')
+2020-03-23 16:51:06,132 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (13, 'BILL_TYPE', 'billType', '')
+2020-03-23 16:51:06,310 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (13, 'BILL_TYPE', 'billType', '')
+2020-03-23 16:51:06,313 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (14, 'OFFER_PRICE', 'offerPrice', '')
+2020-03-23 16:51:06,376 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (14, 'OFFER_PRICE', 'offerPrice', '')
+2020-03-23 16:51:06,378 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (15, 'STATUS', 'status', '')
+2020-03-23 16:51:06,382 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (15, 'STATUS', 'status', '')
+2020-03-23 16:51:06,616 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (16, 'ORDER_TIME', 'orderTime', '')
+2020-03-23 16:51:06,726 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (16, 'ORDER_TIME', 'orderTime', '')
+2020-03-23 16:51:06,772 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (17, 'OFFER_DESC', 'offerDesc', '')
+2020-03-23 16:51:06,774 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (17, 'OFFER_DESC', 'offerDesc', '')
+2020-03-23 16:51:06,777 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (18, 'OFFER_TYPE', 'offerType', '')
+2020-03-23 16:51:06,779 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (18, 'OFFER_TYPE', 'offerType', '')
+2020-03-23 16:51:06,781 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (19, 'OFFER_TYPE_NAME', 'offerTypeName', '')
+2020-03-23 16:51:06,825 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (19, 'OFFER_TYPE_NAME', 'offerTypeName', '')
+2020-03-23 16:51:06,829 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (20, 'BRAND_ID', 'brandId', '')
+2020-03-23 16:51:06,912 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (20, 'BRAND_ID', 'brandId', '')
+2020-03-23 16:51:06,915 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (21, 'BRAND_NAME', 'brandName', '')
+2020-03-23 16:51:06,954 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (21, 'BRAND_NAME', 'brandName', '')
+2020-03-23 16:51:06,958 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (22, 'IS_MAIN', 'isMain', '')
+2020-03-23 16:51:06,965 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (22, 'IS_MAIN', 'isMain', '')
+2020-03-23 16:51:07,222 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (23, 'CHOOSE_TAG', 'chooseTag', '')
+2020-03-23 16:51:07,228 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (23, 'CHOOSE_TAG', 'chooseTag', '')
+2020-03-23 16:51:07,362 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (24, 'CAN_UN_SUB', 'canUnSub', '')
+2020-03-23 16:51:07,406 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (24, 'CAN_UN_SUB', 'canUnSub', '')
+2020-03-23 16:51:07,409 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (25, 'EFF_TIME', 'effTime', '')
+2020-03-23 16:51:07,413 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (25, 'EFF_TIME', 'effTime', '')
+2020-03-23 16:51:07,525 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (26, 'EXP_TIME', 'exp_time', '')
+2020-03-23 16:51:07,526 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (26, 'EXP_TIME', 'exp_time', '')
+2020-03-23 16:51:07,528 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (27, 'OFFER_ATTR_LIST', 'offerAttrList', '')
+2020-03-23 16:51:07,531 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (27, 'OFFER_ATTR_LIST', 'offerAttrList', '')
+2020-03-23 16:51:07,571 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (28, 'OFFER_ATTR', 'offerAttr', '')
+2020-03-23 16:51:07,576 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (28, 'OFFER_ATTR', 'offerAttr', '')
+2020-03-23 16:51:07,582 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (29, 'ATTR_ID', 'attrId', '')
+2020-03-23 16:51:07,624 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (29, 'ATTR_ID', 'attrId', '')
+2020-03-23 16:51:07,628 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (30, 'ATTR_NAME', 'attrName', '')
+2020-03-23 16:51:07,673 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (30, 'ATTR_NAME', 'attrName', '')
+2020-03-23 16:51:07,675 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (31, 'ATTR_DESC', 'attrDesc', '')
+2020-03-23 16:51:07,683 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (31, 'ATTR_DESC', 'attrDesc', '')
+2020-03-23 16:51:07,762 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (32, 'ATTR_VALUE', 'attrValue', '')
+2020-03-23 16:51:07,805 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (32, 'ATTR_VALUE', 'attrValue', '')
+2020-03-23 16:51:07,808 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (33, 'ATTR_VALUE_DESC', 'attrValueDesc', '')
+2020-03-23 16:51:07,815 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (33, 'ATTR_VALUE_DESC', 'attrValueDesc', '')
+2020-03-23 16:51:07,889 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (34, 'ORDER_STAFF_ID', 'orderStaffId', '')
+2020-03-23 16:51:07,893 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (34, 'ORDER_STAFF_ID', 'orderStaffId', '')
+2020-03-23 16:51:07,899 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (35, 'ORDER_CHNN', 'orderChnn', '')
+2020-03-23 16:51:08,084 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (35, 'ORDER_CHNN', 'orderChnn', '')
+2020-03-23 16:51:08,087 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (36, 'REMARK', 'remark', '')
+2020-03-23 16:51:08,090 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (36, 'REMARK', 'remark', '')
+2020-03-23 16:51:08,094 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (37, 'STARTORDERTIME', 'startordertime', '')
+2020-03-23 16:51:08,098 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (37, 'STARTORDERTIME', 'startordertime', '')
+2020-03-23 16:51:08,404 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (38, 'CLOSEORDERTIME', 'closeordertime', '')
+2020-03-23 16:51:08,406 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (38, 'CLOSEORDERTIME', 'closeordertime', '')
+2020-03-23 16:51:08,410 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (39, 'BIZNAME', 'bizname', '')
+2020-03-23 16:51:08,412 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (39, 'BIZNAME', 'bizname', '')
+2020-03-23 16:51:08,414 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (40, 'SPTYPE', 'sptype', '')
+2020-03-23 16:51:08,487 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (40, 'SPTYPE', 'sptype', '')
+2020-03-23 16:51:08,489 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (41, 'ORDER_DEP', 'orderDep', '')
+2020-03-23 16:51:08,492 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (41, 'ORDER_DEP', 'orderDep', '')
+2020-03-23 16:51:08,495 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (42, 'SHORT_NUM', 'shortNum', '')
+2020-03-23 16:51:08,497 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (42, 'SHORT_NUM', 'shortNum', '')
+2020-03-23 16:51:08,669 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (43, 'ERRORINFO', 'errorinfo', '')
+2020-03-23 16:51:08,673 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (43, 'ERRORINFO', 'errorinfo', '')
+2020-03-23 16:51:08,678 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (44, 'CODE', 'code', '')
+2020-03-23 16:51:08,680 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (44, 'CODE', 'code', '')
+2020-03-23 16:51:08,750 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (45, 'MESSAGE', 'message', '')
+2020-03-23 16:51:08,823 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (45, 'MESSAGE', 'message', '')
+2020-03-23 16:51:08,825 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (46, 'BUSI_SERIAL_NO', 'busiSerialNo', '')
+2020-03-23 16:51:08,830 - root - ERROR - sql类型没有匹配到：
+insert into
+    nk_camel_keys
+values
+    (46, 'BUSI_SERIAL_NO', 'busiSerialNo', '')
+2020-03-23 16:51:08,898 - root - INFO - 当前处理的sql：
+update
+    city_code_data
+set
+    city_code = concat('0', city_code)
+where
+    id > 0
+2020-03-23 16:51:08,900 - root - ERROR - sql类型没有匹配到：
+update
+    city_code_data
+set
+    city_code = concat('0', city_code)
+where
+    id > 0
+2020-03-23 16:51:08,905 - root - INFO - 当前处理的sql：
+2020-03-23 16:51:08,907 - root - ERROR - sql类型没有匹配到：
+2020-03-23 16:51:08,908 - root - INFO - sqlDict:
+2020-03-23 16:55:32,001 - root - INFO - 
+                                                                                                                           
+                                                                                                                       
+KKKKKKKKK    KKKKKKK                                                                                                   
+K:::::::K    K:::::K                                                                                                   
+K:::::::K    K:::::K                                                                                                   
+K:::::::K   K::::::K                                                                                                   
+KK::::::K  K:::::KKK   ooooooooooo   nnnn  nnnnnnnn       ggggggggg   gggggzzzzzzzzzzzzzzzzz                           
+  K:::::K K:::::K    oo:::::::::::oo n:::nn::::::::nn    g:::::::::ggg::::gz:::::::::::::::z                           
+  K::::::K:::::K    o:::::::::::::::on::::::::::::::nn  g:::::::::::::::::gz::::::::::::::z                            
+  K:::::::::::K     o:::::ooooo:::::onn:::::::::::::::ng::::::ggggg::::::ggzzzzzzzz::::::z                             
+  K:::::::::::K     o::::o     o::::o  n:::::nnnn:::::ng:::::g     g:::::g       z::::::z                              
+  K::::::K:::::K    o::::o     o::::o  n::::n    n::::ng:::::g     g:::::g      z::::::z                               
+  K:::::K K:::::K   o::::o     o::::o  n::::n    n::::ng:::::g     g:::::g     z::::::z                                
+KK::::::K  K:::::KKKo::::o     o::::o  n::::n    n::::ng::::::g    g:::::g    z::::::z                                 
+K:::::::K   K::::::Ko:::::ooooo:::::o  n::::n    n::::ng:::::::ggggg:::::g   z::::::zzzzzzzz                           
+K:::::::K    K:::::Ko:::::::::::::::o  n::::n    n::::n g::::::::::::::::g  z::::::::::::::z                           
+K:::::::K    K:::::K oo:::::::::::oo   n::::n    n::::n  gg::::::::::::::g z:::::::::::::::z                           
+KKKKKKKKK    KKKKKKK   ooooooooooo     nnnnnn    nnnnnn    gggggggg::::::g zzzzzzzzzzzzzzzzz                           
+                                                                   g:::::g                                             
+                                                       gggggg      g:::::g                                             
+                                                       g:::::gg   gg:::::g                                             
+                                                        g::::::ggg:::::::g                                             
+                                                         gg:::::::::::::g                                              
+                                                           ggg::::::ggg                                                
+                                                              gggggg                                                   
+                                                                                                                       
+                                                                                                                       
+                                             iiii  lllllll RRRRRRRRRRRRRRRRR                             tttt          
+                                            i::::i l:::::l R::::::::::::::::R                         ttt:::t          
+                                             iiii  l:::::l R::::::RRRRRR:::::R                        t:::::t          
+                                                   l:::::l RR:::::R     R:::::R                       t:::::t          
+    eeeeeeeeeeee  vvvvvvv           vvvvvvviiiiiii  l::::l   R::::R     R:::::R  aaaaaaaaaaaaa  ttttttt:::::ttttttt    
+  ee::::::::::::ee v:::::v         v:::::v i:::::i  l::::l   R::::R     R:::::R  a::::::::::::a t:::::::::::::::::t    
+ e::::::eeeee:::::eev:::::v       v:::::v   i::::i  l::::l   R::::RRRRRR:::::R   aaaaaaaaa:::::at:::::::::::::::::t    
+e::::::e     e:::::e v:::::v     v:::::v    i::::i  l::::l   R:::::::::::::RR             a::::atttttt:::::::tttttt    
+e:::::::eeeee::::::e  v:::::v   v:::::v     i::::i  l::::l   R::::RRRRRR:::::R     aaaaaaa:::::a      t:::::t          
+e:::::::::::::::::e    v:::::v v:::::v      i::::i  l::::l   R::::R     R:::::R  aa::::::::::::a      t:::::t          
+e::::::eeeeeeeeeee      v:::::v:::::v       i::::i  l::::l   R::::R     R:::::R a::::aaaa::::::a      t:::::t          
+e:::::::e                v:::::::::v        i::::i  l::::l   R::::R     R:::::Ra::::a    a:::::a      t:::::t    tttttt
+e::::::::e                v:::::::v        i::::::il::::::lRR:::::R     R:::::Ra::::a    a:::::a      t::::::tttt:::::t
+ e::::::::eeeeeeee         v:::::v         i::::::il::::::lR::::::R     R:::::Ra:::::aaaa::::::a      tt::::::::::::::t
+  ee:::::::::::::e          v:::v          i::::::il::::::lR::::::R     R:::::R a::::::::::aa:::a       tt:::::::::::tt
+    eeeeeeeeeeeeee           vvv           iiiiiiiillllllllRRRRRRRR     RRRRRRR  aaaaaaaaaa  aaaa         ttttttttttt  
+                                                                                                                       
+2020-03-23 16:55:32,085 - root - INFO - =====================上线SQL脚本文件生成工具=====================
+2020-03-23 16:55:38,227 - root - INFO - 当前处理的sql：CREATE TABLE `znyd_h5onelgn_info` (
+    `msisdn` varchar(20) NOT NULL COMMENT '加密后的手机号',
+    `passid` varchar(64) NOT NULL COMMENT '用户统一账号的系统标识',
+    `msisdnmask` varchar(20) NOT NULL COMMENT '手机号码掩码',
+    `createTime` datetime DEFAULT NULL COMMENT '创建时间',
+    `field1` varchar(60) DEFAULT NULL COMMENT '最近修改人',
+    `field2` varchar(0) DEFAULT NULL COMMENT '最近修改时间',
+    `billId` varchar(255) NOT NULL COMMENT '手机号码',
+    PRIMARY KEY (`billId`)
+)
+2020-03-23 16:55:38,285 - root - INFO - 当前处理的sql：
+CREATE TABLE `znyd_h5login_info` (
+    `rowId` int(11) NOT NULL AUTO_INCREMENT COMMENT '主键id',
+    `businessKey` varchar(64) DEFAULT NULL COMMENT '业务主键',
+    `billId` varchar(60) DEFAULT NULL COMMENT '手机号',
+    `loginTime` datetime DEFAULT NULL COMMENT '登录时间',
+    `loginMode` char(2) NOT NULL COMMENT '登录方式:0短信登录,1一键登录',
+    `accessChannels` varchar(60) NOT NULL COMMENT '登录渠道 用来区分短信、互联网等渠道',
+    `field1` varchar(60) DEFAULT NULL COMMENT '备用字段1',
+    `field2` varchar(255) DEFAULT NULL COMMENT '备用字段',
+    PRIMARY KEY (`rowId`)
+)
+2020-03-23 16:55:38,391 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (1, 'USER_ID', 'userId', '')
+2020-03-23 16:55:38,393 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (2, 'RETINFO', 'retinfo', '')
+2020-03-23 16:55:38,395 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (3, 'OFFER_LIST', 'offerList', '')
+2020-03-23 16:55:38,398 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (4, 'OFFER_INFO', 'offerInfo', '')
+2020-03-23 16:55:38,404 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (5, 'OFFER_ID', 'offerId', '')
+2020-03-23 16:55:38,480 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (6, 'OFFER_NAME', 'offerName', '')
+2020-03-23 16:55:38,487 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (7, 'UP_OFFER_ID', 'upOfferId', '')
+2020-03-23 16:55:38,514 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (8, 'UP_OFFER_NAME', 'upOfferName', '')
+2020-03-23 16:55:38,516 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (9, 'IS_PACKAGE', 'isPackage', '')
+2020-03-23 16:55:38,520 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (10, 'SP_CODE', 'spCode', '')
+2020-03-23 16:55:38,546 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (11, 'BIZ_CODE', 'bizCode', '')
+2020-03-23 16:55:38,548 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (12, 'SP_NAME', 'spName', '')
+2020-03-23 16:55:38,552 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (13, 'BILL_TYPE', 'billType', '')
+2020-03-23 16:55:38,630 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (14, 'OFFER_PRICE', 'offerPrice', '')
+2020-03-23 16:55:38,632 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (15, 'STATUS', 'status', '')
+2020-03-23 16:55:38,635 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (16, 'ORDER_TIME', 'orderTime', '')
+2020-03-23 16:55:38,640 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (17, 'OFFER_DESC', 'offerDesc', '')
+2020-03-23 16:55:38,766 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (18, 'OFFER_TYPE', 'offerType', '')
+2020-03-23 16:55:38,773 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (19, 'OFFER_TYPE_NAME', 'offerTypeName', '')
+2020-03-23 16:55:38,802 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (20, 'BRAND_ID', 'brandId', '')
+2020-03-23 16:55:38,861 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (21, 'BRAND_NAME', 'brandName', '')
+2020-03-23 16:55:38,863 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (22, 'IS_MAIN', 'isMain', '')
+2020-03-23 16:55:38,865 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (23, 'CHOOSE_TAG', 'chooseTag', '')
+2020-03-23 16:55:38,869 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (24, 'CAN_UN_SUB', 'canUnSub', '')
+2020-03-23 16:55:38,922 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (25, 'EFF_TIME', 'effTime', '')
+2020-03-23 16:55:38,924 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (26, 'EXP_TIME', 'exp_time', '')
+2020-03-23 16:55:38,928 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (27, 'OFFER_ATTR_LIST', 'offerAttrList', '')
+2020-03-23 16:55:38,931 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (28, 'OFFER_ATTR', 'offerAttr', '')
+2020-03-23 16:55:38,953 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (29, 'ATTR_ID', 'attrId', '')
+2020-03-23 16:55:39,088 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (30, 'ATTR_NAME', 'attrName', '')
+2020-03-23 16:55:39,151 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (31, 'ATTR_DESC', 'attrDesc', '')
+2020-03-23 16:55:39,215 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (32, 'ATTR_VALUE', 'attrValue', '')
+2020-03-23 16:55:39,218 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (33, 'ATTR_VALUE_DESC', 'attrValueDesc', '')
+2020-03-23 16:55:39,285 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (34, 'ORDER_STAFF_ID', 'orderStaffId', '')
+2020-03-23 16:55:39,352 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (35, 'ORDER_CHNN', 'orderChnn', '')
+2020-03-23 16:55:39,386 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (36, 'REMARK', 'remark', '')
+2020-03-23 16:55:39,451 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (37, 'STARTORDERTIME', 'startordertime', '')
+2020-03-23 16:55:39,485 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (38, 'CLOSEORDERTIME', 'closeordertime', '')
+2020-03-23 16:55:39,567 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (39, 'BIZNAME', 'bizname', '')
+2020-03-23 16:55:39,602 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (40, 'SPTYPE', 'sptype', '')
+2020-03-23 16:55:39,664 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (41, 'ORDER_DEP', 'orderDep', '')
+2020-03-23 16:55:39,667 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (42, 'SHORT_NUM', 'shortNum', '')
+2020-03-23 16:55:39,751 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (43, 'ERRORINFO', 'errorinfo', '')
+2020-03-23 16:55:39,809 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (44, 'CODE', 'code', '')
+2020-03-23 16:55:39,812 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (45, 'MESSAGE', 'message', '')
+2020-03-23 16:55:39,816 - root - INFO - 当前处理的sql：
+insert into
+    nk_camel_keys
+values
+    (46, 'BUSI_SERIAL_NO', 'busiSerialNo', '')
+2020-03-23 16:55:39,819 - root - INFO - 当前处理的sql：
+update
+    city_code_data
+set
+    city_code = concat('0', city_code)
+where
+    id > 0
+2020-03-23 16:55:39,869 - root - ERROR - sql类型没有匹配到：
+update
+    city_code_data
+set
+    city_code = concat('0', city_code)
+where
+    id > 0
+2020-03-23 16:55:39,897 - root - INFO - 当前处理的sql：
+2020-03-23 16:55:39,898 - root - ERROR - sql类型没有匹配到：
+2020-03-23 16:55:39,899 - root - INFO - sqlDict:
