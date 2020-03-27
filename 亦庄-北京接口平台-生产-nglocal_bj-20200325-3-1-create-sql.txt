@@ -1,0 +1,32 @@
+/*
+*地址：198.115.168.53
+*端口号：20001
+*库名：nglocal_bj
+*用户名：nglocal_bj
+*操作数量：2
+*是否中间件：否
+*数据库类型：mysql
+*工单联系人电话: 17610119557
+*工单执行失败是否回滚:部分回滚
+*/
+CREATE TABLE `znyd_h5onelgn_info` (
+    `msisdn` varchar(20) NOT NULL COMMENT '加密后的手机号',
+    `passid` varchar(64) NOT NULL COMMENT '用户统一账号的系统标识',
+    `msisdnmask` varchar(20) NOT NULL COMMENT '手机号码掩码',
+    `createTime` datetime DEFAULT NULL COMMENT '创建时间',
+    `field1` varchar(60) DEFAULT NULL COMMENT '最近修改人',
+    `field2` varchar(0) DEFAULT NULL COMMENT '最近修改时间',
+    `billId` varchar(255) NOT NULL COMMENT '手机号码',
+    PRIMARY KEY (`billId`)
+);
+CREATE TABLE `znyd_h5login_info` (
+    `rowId` int(11) NOT NULL AUTO_INCREMENT COMMENT '主键id',
+    `businessKey` varchar(64) DEFAULT NULL COMMENT '业务主键',
+    `billId` varchar(60) DEFAULT NULL COMMENT '手机号',
+    `loginTime` datetime DEFAULT NULL COMMENT '登录时间',
+    `loginMode` char(2) NOT NULL COMMENT '登录方式:0短信登录,1一键登录',
+    `accessChannels` varchar(60) NOT NULL COMMENT '登录渠道 用来区分短信、互联网等渠道',
+    `field1` varchar(60) DEFAULT NULL COMMENT '备用字段1',
+    `field2` varchar(255) DEFAULT NULL COMMENT '备用字段',
+    PRIMARY KEY (`rowId`)
+);

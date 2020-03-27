@@ -1,0 +1,18 @@
+/*
+*地址：198.115.168.53
+*端口号：20001
+*库名：nglocal_bj
+*用户名：nglocal_bj
+*操作数量：1
+*是否中间件：否
+*数据库类型：mysql
+*工单联系人电话: 17610119557
+*工单执行失败是否回滚:部分回滚
+*/
+
+update
+    city_code_data
+set
+    city_code = concat('0', city_code)
+where
+    id > 0;

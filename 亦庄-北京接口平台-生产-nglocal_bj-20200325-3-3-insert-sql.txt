@@ -1,0 +1,196 @@
+/*
+*地址：198.115.168.53
+*端口号：20001
+*库名：nglocal_bj
+*用户名：nglocal_bj
+*操作数量：46
+*是否中间件：否
+*数据库类型：mysql
+*工单联系人电话: 17610119557
+*工单执行失败是否回滚:部分回滚
+*/
+
+insert into
+    nk_camel_keys
+values
+    (1, 'USER_ID', 'userId', '');
+insert into
+    nk_camel_keys
+values
+    (2, 'RETINFO', 'retinfo', '');
+insert into
+    nk_camel_keys
+values
+    (3, 'OFFER_LIST', 'offerList', '');
+insert into
+    nk_camel_keys
+values
+    (4, 'OFFER_INFO', 'offerInfo', '');
+insert into
+    nk_camel_keys
+values
+    (5, 'OFFER_ID', 'offerId', '');
+insert into
+    nk_camel_keys
+values
+    (6, 'OFFER_NAME', 'offerName', '');
+insert into
+    nk_camel_keys
+values
+    (7, 'UP_OFFER_ID', 'upOfferId', '');
+insert into
+    nk_camel_keys
+values
+    (8, 'UP_OFFER_NAME', 'upOfferName', '');
+insert into
+    nk_camel_keys
+values
+    (9, 'IS_PACKAGE', 'isPackage', '');
+insert into
+    nk_camel_keys
+values
+    (10, 'SP_CODE', 'spCode', '');
+insert into
+    nk_camel_keys
+values
+    (11, 'BIZ_CODE', 'bizCode', '');
+insert into
+    nk_camel_keys
+values
+    (12, 'SP_NAME', 'spName', '');
+insert into
+    nk_camel_keys
+values
+    (13, 'BILL_TYPE', 'billType', '');
+insert into
+    nk_camel_keys
+values
+    (14, 'OFFER_PRICE', 'offerPrice', '');
+insert into
+    nk_camel_keys
+values
+    (15, 'STATUS', 'status', '');
+insert into
+    nk_camel_keys
+values
+    (16, 'ORDER_TIME', 'orderTime', '');
+insert into
+    nk_camel_keys
+values
+    (17, 'OFFER_DESC', 'offerDesc', '');
+insert into
+    nk_camel_keys
+values
+    (18, 'OFFER_TYPE', 'offerType', '');
+insert into
+    nk_camel_keys
+values
+    (19, 'OFFER_TYPE_NAME', 'offerTypeName', '');
+insert into
+    nk_camel_keys
+values
+    (20, 'BRAND_ID', 'brandId', '');
+insert into
+    nk_camel_keys
+values
+    (21, 'BRAND_NAME', 'brandName', '');
+insert into
+    nk_camel_keys
+values
+    (22, 'IS_MAIN', 'isMain', '');
+insert into
+    nk_camel_keys
+values
+    (23, 'CHOOSE_TAG', 'chooseTag', '');
+insert into
+    nk_camel_keys
+values
+    (24, 'CAN_UN_SUB', 'canUnSub', '');
+insert into
+    nk_camel_keys
+values
+    (25, 'EFF_TIME', 'effTime', '');
+insert into
+    nk_camel_keys
+values
+    (26, 'EXP_TIME', 'exp_time', '');
+insert into
+    nk_camel_keys
+values
+    (27, 'OFFER_ATTR_LIST', 'offerAttrList', '');
+insert into
+    nk_camel_keys
+values
+    (28, 'OFFER_ATTR', 'offerAttr', '');
+insert into
+    nk_camel_keys
+values
+    (29, 'ATTR_ID', 'attrId', '');
+insert into
+    nk_camel_keys
+values
+    (30, 'ATTR_NAME', 'attrName', '');
+insert into
+    nk_camel_keys
+values
+    (31, 'ATTR_DESC', 'attrDesc', '');
+insert into
+    nk_camel_keys
+values
+    (32, 'ATTR_VALUE', 'attrValue', '');
+insert into
+    nk_camel_keys
+values
+    (33, 'ATTR_VALUE_DESC', 'attrValueDesc', '');
+insert into
+    nk_camel_keys
+values
+    (34, 'ORDER_STAFF_ID', 'orderStaffId', '');
+insert into
+    nk_camel_keys
+values
+    (35, 'ORDER_CHNN', 'orderChnn', '');
+insert into
+    nk_camel_keys
+values
+    (36, 'REMARK', 'remark', '');
+insert into
+    nk_camel_keys
+values
+    (37, 'STARTORDERTIME', 'startordertime', '');
+insert into
+    nk_camel_keys
+values
+    (38, 'CLOSEORDERTIME', 'closeordertime', '');
+insert into
+    nk_camel_keys
+values
+    (39, 'BIZNAME', 'bizname', '');
+insert into
+    nk_camel_keys
+values
+    (40, 'SPTYPE', 'sptype', '');
+insert into
+    nk_camel_keys
+values
+    (41, 'ORDER_DEP', 'orderDep', '');
+insert into
+    nk_camel_keys
+values
+    (42, 'SHORT_NUM', 'shortNum', '');
+insert into
+    nk_camel_keys
+values
+    (43, 'ERRORINFO', 'errorinfo', '');
+insert into
+    nk_camel_keys
+values
+    (44, 'CODE', 'code', '');
+insert into
+    nk_camel_keys
+values
+    (45, 'MESSAGE', 'message', '');
+insert into
+    nk_camel_keys
+values
+    (46, 'BUSI_SERIAL_NO', 'busiSerialNo', '');
